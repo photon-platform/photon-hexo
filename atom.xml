@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jill Moser</title>
+  
+  <subtitle>Artist • New York</subtitle>
+  <link href="/photon/atom.xml" rel="self"/>
+  
+  <link href="http://i-am-phi.github.io/photon/"/>
+  <updated>2018-02-25T03:18:25.000Z</updated>
+  <id>http://i-am-phi.github.io/photon/</id>
+  
+  <author>
+    <name>i-am-phi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="http://i-am-phi.github.io/photon/2018/02/23/welcome/"/>
+    <id>http://i-am-phi.github.io/photon/2018/02/23/welcome/</id>
+    <published>2018-02-24T00:00:00.000Z</published>
+    <updated>2018-02-25T03:18:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to my Studio!</p><a id="more"></a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to my Studio!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="welcome" scheme="http://i-am-phi.github.io/photon/categories/welcome/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tracking</title>
+    <link href="http://i-am-phi.github.io/photon/2017/06/01/tracking/"/>
+    <id>http://i-am-phi.github.io/photon/2017/06/01/tracking/</id>
+    <published>2017-06-01T07:00:00.000Z</published>
+    <updated>2018-02-25T03:03:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p><p>70 x 73 inches</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oil and silkscreen on canvas&lt;/p&gt;
+&lt;p&gt;70 x 73 inches&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+    
+      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
+    
+      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
+    
+      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+      <category term="silkscreen" scheme="http://i-am-phi.github.io/photon/tags/silkscreen/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jump Cut</title>
+    <link href="http://i-am-phi.github.io/photon/2017/01/01/jump-cut/"/>
+    <id>http://i-am-phi.github.io/photon/2017/01/01/jump-cut/</id>
+    <published>2017-01-01T08:00:00.000Z</published>
+    <updated>2018-02-25T02:07:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oil on canvas</p><p>37 x 70</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oil on canvas&lt;/p&gt;
+&lt;p&gt;37 x 70&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+    
+      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
+    
+      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vertigo</title>
+    <link href="http://i-am-phi.github.io/photon/2017/01/01/vertigo/"/>
+    <id>http://i-am-phi.github.io/photon/2017/01/01/vertigo/</id>
+    <published>2017-01-01T08:00:00.000Z</published>
+    <updated>2018-02-25T03:04:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p><p>80 x 70 inches</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oil and silkscreen on canvas&lt;/p&gt;
+&lt;p&gt;80 x 70 inches&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+    
+      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pink mama</title>
+    <link href="http://i-am-phi.github.io/photon/2015/01/01/pink-mama/"/>
+    <id>http://i-am-phi.github.io/photon/2015/01/01/pink-mama/</id>
+    <published>2015-01-01T08:00:00.000Z</published>
+    <updated>2018-02-25T03:02:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oil on canvas</p><p>30x30</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oil on canvas&lt;/p&gt;
+&lt;p&gt;30x30&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+    
+      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
+    
+      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
+    
+      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>press play</title>
+    <link href="http://i-am-phi.github.io/photon/2015/01/01/press-play/"/>
+    <id>http://i-am-phi.github.io/photon/2015/01/01/press-play/</id>
+    <published>2015-01-01T08:00:00.000Z</published>
+    <updated>2018-02-25T02:17:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oil and acrylic on canvas</p><p>35 x 37</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oil and acrylic on canvas&lt;/p&gt;
+&lt;p&gt;35 x 37&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+    
+      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+  </entry>
+  
+</feed>
