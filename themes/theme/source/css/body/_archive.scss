@@ -1,0 +1,43 @@
+//default - mobile first
+body {
+
+  &.archive {
+
+    > main {
+      // multi-column grid of article excerpts
+      // columns will autosize to a min-size of 20ems
+      display: grid;
+      grid-gap: 1em;
+      // padding: 2em;
+
+      grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));      // justify-content: space-around;
+
+
+      > header {
+        grid-column: 1 / -1;
+
+        padding: 1em;
+        > h2 {
+          font-size: 1.7em;
+        }
+      }
+      // articles in the list
+      > article {
+        @include article-card;
+
+        > figure {
+          height: 18em;
+
+          > img {
+
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+    }
+
+
+  }
+}

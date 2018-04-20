@@ -1,0 +1,26 @@
+nav {
+
+  @extend %section-default;
+
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+  justify-content: center;
+
+  // background-color: $color-neutral-lighter;
+  padding: 1em;
+  text-align: center;
+
+  font-size: 1.3em;
+
+  @include media-bp(3) {
+    flex-direction: column;
+    justify-content: start;
+
+    // align-self: flex-start;
+  }
+
+  a {
+    margin: 0 .25em;
+  }
+}

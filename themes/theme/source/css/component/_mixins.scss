@@ -1,0 +1,69 @@
+// default layout for article
+// additional items will be placed after footer
+@mixin article-layout() {
+
+  display: grid;
+  grid-template-columns:  1fr;
+  // align-content: center;
+  justify-items: center;
+
+  // grid-gap: .5em;
+
+  grid-template-areas:
+    ' figure '
+    ' header '
+    ' main '
+    ' footer ';
+
+}
+
+@mixin article-banner() {
+
+  display: grid;
+  grid-template-columns:  14em 1fr;
+  align-content: start;
+  align-items: start;
+
+  text-align: left;
+
+  grid-template-areas:
+    ' figure header'
+    ' figure main '
+    ' figure footer ';
+
+  > header,
+  > main {
+    // padding: 0;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+}
+
+@mixin article-card() {
+
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-template-rows: min-content min-content auto;
+  align-content: flex-start;
+  align-items: flex-start;
+
+  text-align: left;
+
+  grid-template-areas:
+    ' figure '
+    ' header'
+    ' main '
+    ' footer ';
+
+  > header,
+  > main {
+    padding: 0;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  > main {
+    padding: 1em;
+  }
+
+}

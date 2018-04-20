@@ -1,0 +1,92 @@
+//default - mobile first
+body {
+
+  &.index {
+
+    grid-template-areas:  ' .   header  . '
+                          ' .   nav     . '
+                          ' .   showcase  . '
+                          ' .   featured  . '
+                          ' .   main    . '
+                          ' .   asides  . '
+                          ' .   footer  . ';
+    align-content: center;
+    justify-content: center;
+
+
+    > .featured {
+      @extend %body-section-default;
+      grid-area: featured;
+    }
+
+    > .showcase {
+      @extend %body-section-default;
+      grid-area: showcase;
+
+      > article {
+        > main > div {
+          font-size: 1em;
+          font-weight: 400;
+        }
+      }
+    }
+
+    > main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+
+      > header {
+        align-content: flex-start;
+        align-items: flex-start;
+        padding: 1em 0;
+        text-align: left;
+        font-size: 1.5em;
+      }
+
+      > article {
+        @include article-banner;
+        cursor: pointer;
+
+      }
+    }
+
+
+    @include media-bp(1) {
+    }
+
+    @include media-bp(2) {
+    }
+
+    @include media-bp(3) {
+      // grid-template-columns: 1fr 16em   52em   1fr;
+      // grid-template-rows:  21em 1fr auto;
+      grid-template-areas:  "header  header   showcase showcase"
+                            "nav  nav      showcase  showcase"
+                            ".  featured featured ."
+                            ".  asides   main   ."
+                            ".  footer   main   .";
+    }
+
+    @include media-bp(4) {
+      // grid-template-areas:  ".   header showcase featured  ."
+      //                       ".   nav    showcase featured  ."
+      //                       ".   asides main     main      ."
+      //                       ".   footer main     main      .";
+    }
+    @include media-bp(5) {
+      // grid-template-columns: 1fr 16em   68em   16em   1fr;
+      // grid-template-areas:  ".   header showcase featured  ."
+      //                       ".   nav    showcase featured ."
+      //                       ".   asides main   main  ."
+      //                       ".   footer footer footer .";
+    }
+    @include media-bp(6) {
+      // grid-template-columns: 1fr 16em   86em   16em   1fr;
+      // grid-template-areas:  ".   header showcase featured  ."
+      //                       ".   nav    showcase featured ."
+      //                       ".   asides main   main  ."
+      //                       ".   footer footer footer .";
+    }
+  }
+}

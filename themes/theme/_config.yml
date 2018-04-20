@@ -1,0 +1,23 @@
+# Photon Theme Config file
+
+# Header
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More >
+fancybox: true
+
+# Sidebar
+asides:
+- search
+- list-recent-posts
+# - list-archives
+- list-categories
+# - list-tags
+# - tagcloud
+
+# widget behavior
+archive_type: 'yearly'
+
+# show counts for categories and tags
+show_count: true

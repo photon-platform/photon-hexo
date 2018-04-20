@@ -1,0 +1,6 @@
+<% if (site.tags.length){ %>
+  <aside>
+    <h3><%= __('tags') %></h3>
+    <%- list_tags({show_count: theme.show_count}) %>
+  </aside>
+<% } %>

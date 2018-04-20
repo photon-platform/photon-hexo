@@ -1,0 +1,10 @@
+<% if ( article.categories && article.categories.length){ -%>
+  <aside class="article-category">
+  <h4><%= __('categories') %></h4>
+    <%- list_categories( article.categories, {
+      show_count: false,
+      style: 'list',
+      separator: ' • '
+    }) -%>
+  </aside>
+<% } -%>

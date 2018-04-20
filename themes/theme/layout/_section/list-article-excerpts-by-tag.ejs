@@ -1,0 +1,9 @@
+<!-- list article excerpts by tag name -->
+<section class="<%= tag %>">
+<% var articles = site.tags.findOne( {name: tag } ); -%>
+<% if (articles) { -%>
+  <% articles.posts.forEach( article => { -%>
+    <%-  partial('_component/article', { article: article, context: 'excerpt' } ) %>
+  <% } ) -%>
+<% } -%>
+</section>

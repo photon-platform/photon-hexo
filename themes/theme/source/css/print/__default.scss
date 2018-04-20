@@ -1,0 +1,46 @@
+@page {
+  size: 8.5in 11in;
+  margin: 0in;
+
+  // @top-center {
+  //  content: "photon";
+  // }
+  //
+  // @bottom-center {
+  //  content: counter(page);
+  // }
+}
+
+@media print {
+  html {
+    font-size: 12pt;
+    width: 8.5in;
+    display: block;
+  }
+
+  body {
+    width: 8.5in;
+    height: 11in;
+
+    grid-template-columns: 1fr;
+
+    > header,
+    > footer,
+    > nav,
+    > .asides {
+      display: none;
+  	}
+
+    article {
+      > figure {
+        width: 80%;
+        padding: 5em;
+      }
+
+      > nav {
+        display: none;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,34 @@
+header {
+
+  @extend %section-default;
+
+  flex-flow: column nowrap;
+  // justify-content: center;
+  // align-items: center;
+
+  // padding: 1em;
+  text-align: center;
+
+  > h1 {
+    width: 100%;
+    margin: 0 auto;
+    a {
+      color: $color-key;
+      &:link {
+        color: $color-key;
+      }
+
+      &:visited {
+        color: $color-key;
+      }
+
+      &:hover {
+        color: $color-key-lighter;
+      }
+    }
+  }
+
+  > h2 {
+    // display: none;
+  }
+}

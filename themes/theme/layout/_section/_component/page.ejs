@@ -1,0 +1,30 @@
+
+<article id="<%= post.layout %>-<%= post.slug %>"
+  class="page"
+  itemscope itemtype="http://schema.org/Article">
+  <!-- featured image -->
+  <%- partial('_block/feature') -%>
+
+  <header>
+    <%- partial('_block/title', {link: false}) -%>
+  </header>
+
+  <main itemprop="articleBody">
+    <%_ if (post.excerpt && index){ _%>
+      <%- post.excerpt -%>
+      <%_ if (theme.excerpt_link){ _%>
+        <p><a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a></p>
+      <%_ } _%>
+    <%_ } else { _%>
+      <%- post.content -%>
+    <%_ } _%>
+  </main>
+
+  <%- partial('_block/gallery') -%>
+
+  <footer>
+    <%- partial('_block/share') -%>
+    <%- partial('_block/date', {date_format: null}) -%>
+</footer>
+
+</article>

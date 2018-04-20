@@ -1,0 +1,102 @@
+// default body
+// defaults for top level blocks top level sections
+body {
+
+  %body-section-default {
+    padding: 0;
+  }
+
+  width: 100%;
+
+  padding: 1em;
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr  21em  1fr;
+  grid-template-areas:  ' .   header  . '
+                        ' .   nav     . '
+                        ' .   main    . '
+                        ' .   asides  . '
+                        ' .   footer  . ';
+  justify-content: center;
+  // align-content: center;
+
+  // default sections
+  > header {
+    @extend %body-section-default;
+    grid-area: header;
+    // background-color: $color-foreground;
+    // color: $color-key-lighter;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.3em;
+    > h1 {
+      // width: min-content;
+      font-size: 1.7em;
+
+      // text-transform: uppercase;
+      //TODO: mixin
+      // letter-spacing: .1em;
+      // padding-left: .25em;
+
+    }
+  }
+
+  > footer {
+    @extend %body-section-default;
+    grid-area: footer;
+  }
+
+  > nav {
+    // @extend %body-section-default;
+    grid-area: nav;
+  }
+
+  > main {
+    @extend %body-section-default;
+    grid-area: main;
+  }
+
+  > .asides {
+    @extend %body-section-default;
+    grid-area: asides;
+  }
+
+
+
+  @include media-bp(1) {
+    grid-template-columns: 1fr 32em   1fr;
+  }
+
+  @include media-bp(2) {
+    grid-template-columns: 1fr 50em   1fr;
+  }
+
+  @include media-bp(3) {
+    grid-template-columns: 1fr 16em   52em   1fr;
+    grid-template-rows: 30vh 70vh auto;
+
+    grid-template-areas:  ".   header main ."
+                          ".   nav    main ."
+                          ".   asides main ."
+                          ".   footer main .";
+  }
+
+  @include media-bp(4) {
+    grid-template-columns: 1fr 16em   70em   1fr;
+    // grid-template-areas:  ".   header main   main  ."
+    //                       ".   nav    main   main  ."
+    //                       ".   asides main   main  ."
+    //                       ".   footer main   main  .";
+  }
+
+  @include media-bp(5) {
+    // grid-template-columns: 1fr 16em   68em    16em   1fr;
+  }
+
+  @include media-bp(6) {
+    // grid-template-columns: 1fr 16em   86em   16em   1fr;
+  }
+
+
+}

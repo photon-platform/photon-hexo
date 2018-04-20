@@ -1,0 +1,8 @@
+  <h1 itemprop="headline">
+  <% if ( link ) { -%>
+      <a href="<%- url_for( article.path ) %>"><%= article.title %></a>
+  <% } else { -%>
+    <%= article.title %>
+  <% } -%>
+  </h1>
+  

@@ -1,0 +1,25 @@
+// default anchor tag styling
+a {
+
+  background-color: transparent;
+  background: none;
+  text-decoration: none;
+  color: $color-key-darker;
+
+  &:link {
+    color: $color-key-darker;
+  }
+
+  &:visited {
+    color: $color-key-darker;
+  }
+
+  &:hover {
+    color: $color-key-lighter;
+  }
+
+  &:active {
+    color: $color-2-dark;
+  }
+
+}

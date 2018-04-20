@@ -1,0 +1,17 @@
+<%#
+requires articles to be passed as an argument
+%>
+
+<!-- list articles -->
+<% page.posts.each( article => { -%>
+    <%- partial( '_component/article', { article: article, context: context } ) -%>
+<% }) -%>
+
+<%_ if (page.total > 1){ -%>
+  <nav id="page-nav">
+    <%- paginator({
+      prev_text: "&laquo; " + __('prev'),
+      next_text: __('next') + " &raquo;"
+    }) -%>
+  </nav>
+<%_ } -%>

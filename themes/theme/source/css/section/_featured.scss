@@ -1,0 +1,60 @@
+.featured {
+
+  @extend %section-default;
+
+  display: grid;
+  grid-gap: 1em;
+  padding: 2em;
+
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));      // justify-content: space-around;
+
+
+  font-size: 1em;
+
+  @include media-bp(3) {
+    flex-direction: row;
+    // justify-content: space-around;
+
+    // align-self: flex-start;
+  }
+
+  > article {
+    text-align: center;
+    cursor: pointer;
+
+    @include article-card;
+
+    > figure {
+      height: 18em;
+
+      > img {
+
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  // @include media-bp(4) {
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  //
+  //   > article {
+  //     // display: grid;
+  //     // grid-template-columns: 1fr;
+  //     //
+  //     // grid-template-areas:
+  //     //   ' figure '
+  //     //   ' header '
+  //     //   ' main ';
+  //     // justify-content: center;
+  //     // align-items: center;
+  //
+  //     > figure {
+  //       width: 100%;
+  //       height: auto;
+  //     }
+  //     // flex-shrink:1;
+  //   }
+  // }
+}

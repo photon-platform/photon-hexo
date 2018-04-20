@@ -1,0 +1,10 @@
+  <header>
+    <h1>
+      <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+    </h1>
+    <%_ if (theme.subtitle){ _%>
+    <h2>
+      <%= theme.subtitle %>
+    </h2>
+    <%_ } _%>
+  </header>

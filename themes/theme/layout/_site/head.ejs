@@ -1,0 +1,33 @@
+<head>
+  <meta charset="utf-8">
+  <title><%= page_title() %> | <%= config.title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<%# TODO: favicon -%>
+<% if (theme.rss) { -%>
+  <link rel="alternate" href="<%- url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
+<% } -%>
+<%# TODO: favicon -%>
+<% if (config.favicon) { -%>
+  <link rel="icon" href="<%- url_for('images/' + config.favicon) %>">
+<% } -%>
+<%# TODO: code highlight font integration -%>
+<% if (config.highlight.enable) { -%>
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+<% } -%>
+<%# TODO: pull the css from the theme config file -%>
+<%- css('css/photon') -%>
+<%- css('css/print') -%>
+
+<%- css('fancybox/jquery.fancybox.min') -%>
+<%# TODO: google analytics -%>
+<%#- partial('google-analytics') -%>
+<% if (config.google_analytics) { -%>
+  <meta name="google-site-verification" content="<%-  config.google_analytics %>" />
+<% } -%>
+<%# TODO: open graph -%>
+<%#- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) -%>
+
+<%- css('highlight/atom-one-dark') -%>
+<%- js('highlight/highlight.pack') -%>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>

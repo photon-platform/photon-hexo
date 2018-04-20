@@ -1,0 +1,12 @@
+<% if ( article.figure ){ -%>
+<figure>
+  <img
+  <% if ( article.layout == 'page' || article.layout == 'about' ){ /* no path for image */ -%>
+  src="<%-  article.figure.image  %>"
+  <% } else { -%>
+  src="<%- url_for( article.path + article.figure.image ) %>"
+  <% } -%>
+  alt="<%- article.figure.caption %>">
+  <figcaption><%- article.figure.caption %></figcaption>
+</figure>
+<% } -%>

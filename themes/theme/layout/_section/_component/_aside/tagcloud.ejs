@@ -1,0 +1,6 @@
+<% if (site.tags.length){ %>
+  <aside>
+    <h3><%= __('tagcloud') %></h3>
+    <%- tagcloud({show_count: theme.show_count}) %>
+  </aside>
+<% } %>
