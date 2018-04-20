@@ -3,142 +3,79 @@
   
     
     <entry>
-      <title><![CDATA[Welcome]]></title>
-      <url>/photon/2018/02/23/welcome/</url>
-      <content type="html"><![CDATA[<p>Welcome to my Studio!</p>
-<a id="more"></a>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+      <title>Shine Your Light with Photon</title>
+      <link href="/wildflowers/shine/"/>
+      <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
       
-        <categories>
-            
-            <category> welcome </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Tracking]]></title>
-      <url>/photon/2017/06/01/tracking/</url>
-      <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p>
-<p>70 x 73 inches</p>
-<a id="more"></a>]]></content>
+      <categories>
+          
+          <category> wildflowers </category>
+          
+      </categories>
       
-        <categories>
-            
-            <category> painting </category>
-            
-        </categories>
-        
-        
+      
         <tags>
-            
-            <tag> oil </tag>
-            
-            <tag> canvas </tag>
-            
-            <tag> featured </tag>
-            
-            <tag> silkscreen </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Jump Cut]]></title>
-      <url>/photon/2017/01/01/jump-cut/</url>
-      <content type="html"><![CDATA[<p>oil on canvas</p>
-<p>37 x 70</p>
-<a id="more"></a>]]></content>
-      
-        <categories>
-            
-            <category> painting </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> oil </tag>
-            
-            <tag> canvas </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Vertigo]]></title>
-      <url>/photon/2017/01/01/vertigo/</url>
-      <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p>
-<p>80 x 70 inches</p>
-<a id="more"></a>]]></content>
-      
-        <categories>
-            
-            <category> painting </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> featured </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[pink mama]]></title>
-      <url>/photon/2015/01/01/pink-mama/</url>
-      <content type="html"><![CDATA[<p>oil on canvas</p>
-<p>30x30</p>
-<a id="more"></a>]]></content>
-      
-        <categories>
-            
-            <category> painting </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> oil </tag>
-            
-            <tag> canvas </tag>
             
             <tag> showcase </tag>
             
         </tags>
-        
+      
     </entry>
     
     <entry>
-      <title><![CDATA[press play]]></title>
-      <url>/photon/2015/01/01/press-play/</url>
-      <content type="html"><![CDATA[<p>oil and acrylic on canvas</p>
-<p>35 x 37</p>
-<a id="more"></a>]]></content>
+      <title>structure</title>
+      <link href="/uncategorized/structure/"/>
+      <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
       
-        <categories>
-            
-            <category> painting </category>
-            
-        </categories>
-        
-        
+      
         <tags>
             
             <tag> featured </tag>
             
         </tags>
-        
+      
+    </entry>
+    
+    <entry>
+      <title>logic</title>
+      <link href="/uncategorized/logic/"/>
+      <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
+      
+      
+        <tags>
+            
+            <tag> featured </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>style</title>
+      <link href="/uncategorized/style/"/>
+      <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
+      
+      
+        <tags>
+            
+            <tag> featured </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Welcome</title>
+      <link href="/welcome/welcome/"/>
+      <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+      
+      <categories>
+          
+          <category> welcome </category>
+          
+      </categories>
+      
+      
     </entry>
     
   

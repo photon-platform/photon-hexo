@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jill Moser</title>
+  <title>Photon</title>
   
-  <subtitle>Artist • New York</subtitle>
-  <link href="/photon/atom.xml" rel="self"/>
+  <subtitle>A Content Development System for Creatives</subtitle>
+  <link href="/atom.xml" rel="self"/>
   
   <link href="http://i-am-phi.github.io/photon/"/>
-  <updated>2018-02-25T03:18:25.000Z</updated>
+  <updated>2018-04-20T17:21:17.000Z</updated>
   <id>http://i-am-phi.github.io/photon/</id>
   
   <author>
@@ -17,149 +17,113 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Welcome</title>
-    <link href="http://i-am-phi.github.io/photon/2018/02/23/welcome/"/>
-    <id>http://i-am-phi.github.io/photon/2018/02/23/welcome/</id>
-    <published>2018-02-24T00:00:00.000Z</published>
-    <updated>2018-02-25T03:18:25.000Z</updated>
+    <title>Shine Your Light with Photon</title>
+    <link href="http://i-am-phi.github.io/photon/wildflowers/shine/"/>
+    <id>http://i-am-phi.github.io/photon/wildflowers/shine/</id>
+    <published>2018-04-15T22:41:25.000Z</published>
+    <updated>2018-04-20T17:21:17.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to my Studio!</p><a id="more"></a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to my Studio!&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="welcome" scheme="http://i-am-phi.github.io/photon/categories/welcome/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Tracking</title>
-    <link href="http://i-am-phi.github.io/photon/2017/06/01/tracking/"/>
-    <id>http://i-am-phi.github.io/photon/2017/06/01/tracking/</id>
-    <published>2017-06-01T07:00:00.000Z</published>
-    <updated>2018-02-25T03:03:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p><p>70 x 73 inches</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;oil and silkscreen on canvas&lt;/p&gt;
-&lt;p&gt;70 x 73 inches&lt;/p&gt;
+      &lt;p&gt;Photon is designed to help you organize your content, make it useful, and style it without compromise&lt;br&gt;
     
     </summary>
     
-      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+      <category term="wildflowers" scheme="http://i-am-phi.github.io/photon/categories/wildflowers/"/>
     
-    
-      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
-    
-      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
-    
-      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
-    
-      <category term="silkscreen" scheme="http://i-am-phi.github.io/photon/tags/silkscreen/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Jump Cut</title>
-    <link href="http://i-am-phi.github.io/photon/2017/01/01/jump-cut/"/>
-    <id>http://i-am-phi.github.io/photon/2017/01/01/jump-cut/</id>
-    <published>2017-01-01T08:00:00.000Z</published>
-    <updated>2018-02-25T02:07:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>oil on canvas</p><p>37 x 70</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;oil on canvas&lt;/p&gt;
-&lt;p&gt;37 x 70&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
-    
-    
-      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
-    
-      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vertigo</title>
-    <link href="http://i-am-phi.github.io/photon/2017/01/01/vertigo/"/>
-    <id>http://i-am-phi.github.io/photon/2017/01/01/vertigo/</id>
-    <published>2017-01-01T08:00:00.000Z</published>
-    <updated>2018-02-25T03:04:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>oil and silkscreen on canvas</p><p>80 x 70 inches</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;oil and silkscreen on canvas&lt;/p&gt;
-&lt;p&gt;80 x 70 inches&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
-    
-    
-      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pink mama</title>
-    <link href="http://i-am-phi.github.io/photon/2015/01/01/pink-mama/"/>
-    <id>http://i-am-phi.github.io/photon/2015/01/01/pink-mama/</id>
-    <published>2015-01-01T08:00:00.000Z</published>
-    <updated>2018-02-25T03:02:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>oil on canvas</p><p>30x30</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;oil on canvas&lt;/p&gt;
-&lt;p&gt;30x30&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
-    
-    
-      <category term="oil" scheme="http://i-am-phi.github.io/photon/tags/oil/"/>
-    
-      <category term="canvas" scheme="http://i-am-phi.github.io/photon/tags/canvas/"/>
     
       <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
     
   </entry>
   
   <entry>
-    <title>press play</title>
-    <link href="http://i-am-phi.github.io/photon/2015/01/01/press-play/"/>
-    <id>http://i-am-phi.github.io/photon/2015/01/01/press-play/</id>
-    <published>2015-01-01T08:00:00.000Z</published>
-    <updated>2018-02-25T02:17:52.000Z</updated>
+    <title>structure</title>
+    <link href="http://i-am-phi.github.io/photon/uncategorized/structure/"/>
+    <id>http://i-am-phi.github.io/photon/uncategorized/structure/</id>
+    <published>2018-04-12T00:30:14.000Z</published>
+    <updated>2018-04-20T17:10:33.000Z</updated>
     
-    <content type="html"><![CDATA[<p>oil and acrylic on canvas</p><p>35 x 37</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;oil and acrylic on canvas&lt;/p&gt;
-&lt;p&gt;35 x 37&lt;/p&gt;
+      &lt;ul&gt;
+  &lt;li&gt;organization&lt;/li&gt;
+  &lt;li&gt;hierarchy&lt;/li&gt;
+  &lt;li&gt;taxonomy
     
     </summary>
     
-      <category term="painting" scheme="http://i-am-phi.github.io/photon/categories/painting/"/>
+    
+      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>logic</title>
+    <link href="http://i-am-phi.github.io/photon/uncategorized/logic/"/>
+    <id>http://i-am-phi.github.io/photon/uncategorized/logic/</id>
+    <published>2018-04-08T00:30:35.000Z</published>
+    <updated>2018-04-20T17:10:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+  &lt;li&gt;function&lt;/li&gt;
+  &lt;li&gt;interactivity&lt;/li&gt;
+  &lt;li&gt;sequence
+    
+    </summary>
     
     
       <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>style</title>
+    <link href="http://i-am-phi.github.io/photon/uncategorized/style/"/>
+    <id>http://i-am-phi.github.io/photon/uncategorized/style/</id>
+    <published>2018-04-07T00:30:43.000Z</published>
+    <updated>2018-04-20T17:12:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+  &lt;li&gt;personality&lt;/li&gt;
+  &lt;li&gt;color&lt;/li&gt;
+  &lt;li&gt;balance
+    
+    </summary>
+    
+    
+      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="http://i-am-phi.github.io/photon/welcome/welcome/"/>
+    <id>http://i-am-phi.github.io/photon/welcome/welcome/</id>
+    <published>2018-02-24T00:00:00.000Z</published>
+    <updated>2018-04-19T22:28:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome&lt;br&gt;
+    
+    </summary>
+    
+      <category term="welcome" scheme="http://i-am-phi.github.io/photon/categories/welcome/"/>
+    
     
   </entry>
   
