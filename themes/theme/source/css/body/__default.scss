@@ -55,6 +55,7 @@ body {
   > main {
     @extend %body-section-default;
     grid-area: main;
+    align-content: start;
   }
 
   > .asides {
@@ -74,7 +75,7 @@ body {
 
   @include media-bp(3) {
     grid-template-columns: 1fr 16em   52em   1fr;
-    grid-template-rows: 30vh 70vh auto;
+    // grid-template-rows: 30vh 70vh auto;
 
     grid-template-areas:  ".   header main ."
                           ".   nav    main ."

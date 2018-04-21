@@ -16,7 +16,9 @@ body {
       > header {
         grid-column: 1 / -1;
 
-        padding: 1em;
+        text-align: left;
+
+        padding: 1em 0;
         > h2 {
           font-size: 1.7em;
         }

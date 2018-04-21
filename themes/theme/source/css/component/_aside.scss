@@ -3,11 +3,11 @@
 aside {
 
   padding: 1em;
-  text-align: center;
+  text-align: left;
 
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: left;
   align-content: center;
 
   a {
@@ -20,11 +20,11 @@ aside {
   }
 
   ul {
-    list-style: none;
-    margin: 0;
+    // list-style: none;
+    margin: 0 1em;
 
     > li {
-      margin: .2em;
+      margin: .4em;
 
       > span {
         font-size: .75em;

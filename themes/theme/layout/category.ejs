@@ -5,6 +5,7 @@
     <header>
       <h1><%= __('category') %>:</h1>
       <h2><%= page.category %></h2>
+      <p><%= site.data.categories[page.category] %></p>
     </header>
     <%- partial('_section/list-articles', { context: 'excerpt' }) %>
   </main>
