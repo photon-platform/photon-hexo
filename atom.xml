@@ -6,7 +6,7 @@
   <link href="/photon/atom.xml" rel="self"/>
   
   <link href="http://i-am-phi.github.io/photon/"/>
-  <updated>2018-04-20T17:21:17.000Z</updated>
+  <updated>2018-04-22T00:18:27.000Z</updated>
   <id>http://i-am-phi.github.io/photon/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Shine Your Light with Photon</title>
-    <link href="http://i-am-phi.github.io/photon/wildflowers/shine/"/>
-    <id>http://i-am-phi.github.io/photon/wildflowers/shine/</id>
+    <link href="http://i-am-phi.github.io/photon/overview/shine/"/>
+    <id>http://i-am-phi.github.io/photon/overview/shine/</id>
     <published>2018-04-15T22:41:25.000Z</published>
-    <updated>2018-04-20T17:21:17.000Z</updated>
+    <updated>2018-04-22T00:18:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
     
@@ -31,10 +31,8 @@
     
     </summary>
     
-      <category term="wildflowers" scheme="http://i-am-phi.github.io/photon/categories/wildflowers/"/>
+      <category term="overview" scheme="http://i-am-phi.github.io/photon/overview/"/>
     
-    
-      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
     
   </entry>
   
@@ -43,7 +41,7 @@
     <link href="http://i-am-phi.github.io/photon/uncategorized/structure/"/>
     <id>http://i-am-phi.github.io/photon/uncategorized/structure/</id>
     <published>2018-04-12T00:30:14.000Z</published>
-    <updated>2018-04-20T17:10:33.000Z</updated>
+    <updated>2018-04-22T00:20:49.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
     
@@ -57,6 +55,8 @@
     </summary>
     
     
+      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+    
       <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
   </entry>
@@ -66,7 +66,7 @@
     <link href="http://i-am-phi.github.io/photon/uncategorized/logic/"/>
     <id>http://i-am-phi.github.io/photon/uncategorized/logic/</id>
     <published>2018-04-08T00:30:35.000Z</published>
-    <updated>2018-04-20T17:10:16.000Z</updated>
+    <updated>2018-04-22T00:18:48.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
     
@@ -80,6 +80,8 @@
     </summary>
     
     
+      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+    
       <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
   </entry>
@@ -89,7 +91,7 @@
     <link href="http://i-am-phi.github.io/photon/uncategorized/style/"/>
     <id>http://i-am-phi.github.io/photon/uncategorized/style/</id>
     <published>2018-04-07T00:30:43.000Z</published>
-    <updated>2018-04-20T17:12:22.000Z</updated>
+    <updated>2018-04-22T00:17:42.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
     
@@ -103,6 +105,8 @@
     </summary>
     
     
+      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+    
       <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
   </entry>
@@ -112,7 +116,7 @@
     <link href="http://i-am-phi.github.io/photon/welcome/welcome/"/>
     <id>http://i-am-phi.github.io/photon/welcome/welcome/</id>
     <published>2018-02-24T00:00:00.000Z</published>
-    <updated>2018-04-19T22:28:29.000Z</updated>
+    <updated>2018-04-22T00:21:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
     
@@ -122,7 +126,7 @@
     
     </summary>
     
-      <category term="welcome" scheme="http://i-am-phi.github.io/photon/categories/welcome/"/>
+      <category term="welcome" scheme="http://i-am-phi.github.io/photon/welcome/"/>
     
     
   </entry>

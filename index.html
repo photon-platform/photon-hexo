@@ -17,6 +17,8 @@
     <script>
       hljs.initHighlightingOnLoad();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
   </head>
 
   <body class="index">
@@ -28,34 +30,81 @@
       <h2>
         A Content Development System for Creatives
       </h2>
+      <nav id="main-nav">
+
+        <a href="/photon/">Home</a>
+        <a href="/photon/archives">Archives</a>
+        <a href="/photon/about">About</a>
+      </nav>
+
     </header>
-
-    <nav id="main-nav">
-
-      <a href="/photon/">Home</a>
-      <a href="/photon/archives">Archives</a>
-      <a href="/photon/about">About</a>
-    </nav>
 
     <!-- list article excerpts by tag name -->
     <section class="showcase">
-      <article id="excerpt-shine" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/wildflowers/shine/">
+      <article id="excerpt-logic" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/uncategorized/logic/">
         <figure>
-          <img src="/photon/wildflowers/shine/wb_rhodedendron-pink-blossom.jpg" alt="pink rhododendron blossoms">
-          <figcaption>pink rhododendron blossoms</figcaption>
+          <img src="/photon/uncategorized/logic/wb_trillium.jpg" alt="trillium">
+          <figcaption>trillium</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
-            <a href="/photon/wildflowers/shine/">Shine Your Light with Photon</a>
+            <a href="/photon/uncategorized/logic/">logic</a>
           </h1>
-          <time datetime="2018-04-15T22:41:25.000Z" itemprop="datePublished">2018-04-15</time>
+          <time datetime="2018-04-08T00:30:35.000Z" itemprop="datePublished">2018-04-07</time>
 
         </header>
         <main itemprop="articleBody">
           <div>
-            <p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>
+            <ul>
+              <li>function</li>
+              <li>interactivity</li>
+              <li>sequence
           </div>
-          <a class="more" href="/photon/wildflowers/shine/">Read More &gt;</a>
+          <a class="more" href="/photon/uncategorized/logic/">Read More &gt;</a>
+        </main>
+      </article>
+      <article id="excerpt-structure" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/uncategorized/structure/">
+        <figure>
+          <img src="/photon/uncategorized/structure/wb_red-blossom.jpg" alt="red blossom">
+          <figcaption>red blossom</figcaption>
+        </figure>
+        <header>
+          <h1 itemprop="headline">
+            <a href="/photon/uncategorized/structure/">structure</a>
+          </h1>
+          <time datetime="2018-04-12T00:30:14.000Z" itemprop="datePublished">2018-04-11</time>
+
+        </header>
+        <main itemprop="articleBody">
+          <div>
+            <ul>
+              <li>organization</li>
+              <li>hierarchy</li>
+              <li>taxonomy
+          </div>
+          <a class="more" href="/photon/uncategorized/structure/">Read More &gt;</a>
+        </main>
+      </article>
+      <article id="excerpt-style" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/uncategorized/style/">
+        <figure>
+          <img src="/photon/uncategorized/style/wb_hula-bells.jpg" alt="hula bells">
+          <figcaption>hula bells</figcaption>
+        </figure>
+        <header>
+          <h1 itemprop="headline">
+            <a href="/photon/uncategorized/style/">style</a>
+          </h1>
+          <time datetime="2018-04-07T00:30:43.000Z" itemprop="datePublished">2018-04-06</time>
+
+        </header>
+        <main itemprop="articleBody">
+          <div>
+            <ul>
+              <li>personality</li>
+              <li>color</li>
+              <li>balance
+          </div>
+          <a class="more" href="/photon/uncategorized/style/">Read More &gt;</a>
         </main>
       </article>
     </section>
@@ -132,17 +181,17 @@
 
     <main>
       <header>
-        <h1>More Information...</h1>
+        <h1>Recent Posts...</h1>
       </header>
       <!-- list articles -->
-      <article id="excerpt-shine" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/wildflowers/shine/">
+      <article id="excerpt-shine" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/overview/shine/">
         <figure>
-          <img src="/photon/wildflowers/shine/wb_rhodedendron-pink-blossom.jpg" alt="pink rhododendron blossoms">
-          <figcaption>pink rhododendron blossoms</figcaption>
+          <img src="/photon/overview/shine/photon-logo.png" alt="Photon Content Development System">
+          <figcaption>Photon Content Development System</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
-            <a href="/photon/wildflowers/shine/">Shine Your Light with Photon</a>
+            <a href="/photon/overview/shine/">Shine Your Light with Photon</a>
           </h1>
           <time datetime="2018-04-15T22:41:25.000Z" itemprop="datePublished">2018-04-15</time>
 
@@ -151,7 +200,7 @@
           <div>
             <p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>
           </div>
-          <a class="more" href="/photon/wildflowers/shine/">Read More &gt;</a>
+          <a class="more" href="/photon/overview/shine/">Read More &gt;</a>
         </main>
       </article>
       <article id="excerpt-structure" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/photon/uncategorized/structure/">
@@ -255,7 +304,7 @@
         <h3>Recent Posts</h3>
         <ul>
           <li>
-            <a href="/photon/wildflowers/shine/">Shine Your Light with Photon</a>
+            <a href="/photon/overview/shine/">Shine Your Light with Photon</a>
           </li>
           <li>
             <a href="/photon/uncategorized/structure/">structure</a>
@@ -274,8 +323,8 @@
       <aside>
         <h3>Categories</h3>
         <ul class="category-list">
-          <li class="category-list-item"><a class="category-list-link" href="/photon/categories/welcome/">welcome</a><span class="category-list-count">1</span></li>
-          <li class="category-list-item"><a class="category-list-link" href="/photon/categories/wildflowers/">wildflowers</a><span class="category-list-count">1</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/photon/overview/">overview</a><span class="category-list-count">1</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/photon/welcome/">welcome</a><span class="category-list-count">1</span></li>
         </ul>
       </aside>
     </section>
@@ -297,6 +346,7 @@
     </script>
 
     <script src="/photon/js/script.js"></script>
+    <script src="/photon/js/showcase.js"></script>
 
   </body>
 

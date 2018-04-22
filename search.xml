@@ -4,21 +4,15 @@
     
     <entry>
       <title>Shine Your Light with Photon</title>
-      <link href="/photon/wildflowers/shine/"/>
+      <link href="/photon/overview/shine/"/>
       <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
       
       <categories>
           
-          <category> wildflowers </category>
+          <category> overview </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> showcase </tag>
-            
-        </tags>
       
     </entry>
     
@@ -29,6 +23,8 @@
       
       
         <tags>
+            
+            <tag> showcase </tag>
             
             <tag> featured </tag>
             
@@ -44,6 +40,8 @@
       
         <tags>
             
+            <tag> showcase </tag>
+            
             <tag> featured </tag>
             
         </tags>
@@ -57,6 +55,8 @@
       
       
         <tags>
+            
+            <tag> showcase </tag>
             
             <tag> featured </tag>
             
