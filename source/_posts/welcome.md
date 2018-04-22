@@ -4,6 +4,7 @@ date: '2018-02-24'
 categories:
   - welcome
 tags:
+  # - showcase
 figure:
   image: wb_beautiful.jpg
   caption: so beautiful

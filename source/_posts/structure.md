@@ -13,6 +13,8 @@ date: 2018-04-11 17:30:14
 categories:
 tags:
   - featured
+  - showcase
+
 ---
 - organization
 - hierarchy

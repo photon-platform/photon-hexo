@@ -4,7 +4,6 @@ body {
   &.index {
 
     grid-template-areas:  ' .   header  . '
-                          ' .   nav     . '
                           ' .   showcase  . '
                           ' .   featured  . '
                           ' .   main    . '
@@ -62,7 +61,6 @@ body {
       // grid-template-columns: 1fr 16em   52em   1fr;
       grid-template-rows:  21em 1fr auto;
       grid-template-areas:  ".  header   showcase ."
-                            ".  nav      showcase ."
                             ".  featured featured ."
                             ".  asides   main   ."
                             ".  footer   main   .";
