@@ -4,7 +4,7 @@
     
     <entry>
       <title>Shine Your Light with Photon</title>
-      <link href="/photon/overview/shine/"/>
+      <link href="/overview/shine/"/>
       <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
       
       <categories>
@@ -18,7 +18,7 @@
     
     <entry>
       <title>structure</title>
-      <link href="/photon/uncategorized/structure/"/>
+      <link href="/uncategorized/structure/"/>
       <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
       
       
@@ -34,7 +34,7 @@
     
     <entry>
       <title>logic</title>
-      <link href="/photon/uncategorized/logic/"/>
+      <link href="/uncategorized/logic/"/>
       <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
       
       
@@ -50,7 +50,7 @@
     
     <entry>
       <title>style</title>
-      <link href="/photon/uncategorized/style/"/>
+      <link href="/uncategorized/style/"/>
       <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
       
       
@@ -66,7 +66,7 @@
     
     <entry>
       <title>Welcome</title>
-      <link href="/photon/welcome/welcome/"/>
+      <link href="/welcome/welcome/"/>
       <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
       
       <categories>
