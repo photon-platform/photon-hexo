@@ -15,8 +15,8 @@ formspree:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://i-am-phi.github.io/photon/
-root: /photon/
+url: http://photon-platform.net
+root: /
 
 # permalink: :year/:month/:day/:title/
 permalink: :category/:title/
@@ -28,8 +28,6 @@ menu:
   # Letters: /categories/letters
   Archives: /archives
   About: /about
-
-
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
