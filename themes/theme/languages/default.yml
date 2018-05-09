@@ -1,7 +1,9 @@
-categories: Categories
-search: Search
+categories: Classifications
+category: Classification
+tag: Tag
 tags: Tags
 tagcloud: Tag Cloud
+search: Search
 tweets: Tweets
 prev: Prev
 next: Next
@@ -15,6 +17,4 @@ older: Older
 share: Share
 powered_by: Powered by
 rss_feed: RSS Feed
-category: Category
-tag: Tag
 contact: Contact Us

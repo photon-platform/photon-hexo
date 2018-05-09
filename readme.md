@@ -18,6 +18,7 @@ The primary goal of the Photon Project is to provide a core set of functionality
   - publishing
   - user experience
 - minimal number of languages - fewer things to remember
+- general multi-language support
 
 ## hexo
 
@@ -51,6 +52,7 @@ other libraries
 
 - fancybox
 - katex
+- greensock
 
 ## atom
 

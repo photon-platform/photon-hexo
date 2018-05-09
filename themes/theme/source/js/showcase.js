@@ -48,7 +48,7 @@ function handleKeyboardEvent(evt) {
   var keycode = evt.keyCode || evt.which; // also for cross-browser compatible
 
   console.log(keycode);
-  
+
   switch (keycode) {
     case Key.LEFT:
       prev();
@@ -104,4 +104,10 @@ function next() {
 
   console.log(currentSlide)
 
+}
+
+setTimeout(autoNext, 5000)
+function autoNext() {
+  next()
+  setTimeout(autoNext, 5000)
 }
