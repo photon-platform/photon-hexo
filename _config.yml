@@ -143,7 +143,7 @@ marked:
   autolink: true
 
 responsive_images:
-  pattern: source/**/*.+(png|jpg|jpeg)
+  pattern: '**/*.+(png|jpg|jpeg)'
   sizes:
     small:
       width: 800
@@ -151,6 +151,8 @@ responsive_images:
       width: 1200
     large:
       width: 2000
+      options:
+        withoutEnlargement: true
 
 
 # Hexo Beautify
