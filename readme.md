@@ -9,8 +9,10 @@ The primary goal of the Photon Project is to provide a core set of functionality
 - one set of content for all targets - digital, epub, web, email, print
 - separation of structure, logic and style for maximum composability
 - mastery of control in layout
-- semantic HTML5 approach
-- responsive
+- semantic HTML5 throughout
+- taxonomy
+- custom types
+- responsive architecture
 - speed
   - development
   - publishing
@@ -29,7 +31,36 @@ hexo.io
 - SCSS integration
 - custom types with scaffolds and templates
 
+### plugins
+
+- hexo-beautify
+  - primarily for html cleanup
+- hexo-cli-extras
+  - hexo edit allows command line search of articles
+- hexo-deployer-ftpsync
+- hexo-deployer-git
+- hexo-deployer-netlify
+- hexo-filter-highlight
+- hexo-filter-responsive-images
+- hexo-generator-feed
+- hexo-generator-search
+- hexo-generator-seo-friendly-sitemap
+- hexo-renderer-sass
+
+other libraries
+
+- fancybox
+- katex
 
 ## atom
 
+atom.io
+
 - key package enhancements
+  - eslint
+  -
+
+## hosting
+
+- github pages
+- netlify
