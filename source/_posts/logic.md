@@ -11,6 +11,7 @@ gallery:
       directory.
 date: 2018-04-07 17:30:35
 categories:
+  - principles
 tags:
   - featured
   - showcase
