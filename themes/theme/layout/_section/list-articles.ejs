@@ -1,17 +1,14 @@
 <%#
 requires articles to be passed as an argument
+@params
+
 %>
 
 <!-- list articles -->
-<% page.posts.each( article => { -%>
-    <%- partial( '_component/article', { article: article, context: context } ) -%>
+<% articles.each( article => { -%>
+  <%_ if ( format != ''){ -%>
+    <%- partial( '_articles/article-' + format, { article: article } ) -%>
+  <% } else { -%>
+    <%- partial( '_articles/article', { article: article, format: format } ) -%>
+  <% }  -%>
 <% }) -%>
-
-<%_ if (page.total > 1){ -%>
-  <nav id="page-nav">
-    <%- paginator({
-      prev_text: "&laquo; " + __('prev'),
-      next_text: __('next') + " &raquo;"
-    }) -%>
-  </nav>
-<%_ } -%>

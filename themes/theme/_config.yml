@@ -5,7 +5,12 @@ rss: /atom.xml
 
 # Content
 excerpt_link: Read More >
+excerpt_date: false
+excerpt_footer: false
+
+# include lightbox
 fancybox: true
+
 
 # Sidebar
 asides:

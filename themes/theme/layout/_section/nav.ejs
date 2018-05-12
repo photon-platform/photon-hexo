@@ -1,6 +1,6 @@
   <nav id="main-nav">
     <%# <a id="main-nav-toggle" class="nav-icon"></a> %>
-    <% for (var i in config.menu){ -%>
-    <a href="<%- url_for(config.menu[i]) %>"><%= i %></a>
+    <% for (var key in site.data.menu){ -%>
+    <a href="<%- url_for(site.data.menu[key]) %>"><%= key %></a>
     <% } -%>
   </nav>

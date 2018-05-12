@@ -1,20 +1,20 @@
 //Photon Theme Index
 
 // FONTS
-@import 'fonts/_Merriweather-Sans';
 @import 'fonts/_Merriweather';
+@import 'fonts/_Lato';
 
-$font-display: $font-Merriweather-Sans;
-$font-root: $font-Merriweather;
+$font-display: $font-Merriweather;
+$font-root: $font-Lato;
 
 $form-font: $font-root;
 
 // COLOR
-$color-key-hue: 144;
+$color-key-hue: 204;
 $color-1-hue: 44;
-$color-2-hue: 244;
+$color-2-hue: 144;
 
-$saturation: 44;
+$saturation: 50;
 
 @import 'color/_default';
 

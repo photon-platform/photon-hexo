@@ -14,7 +14,6 @@ categories:
   - principles
 tags:
   - featured
-  - showcase
 
 ---
 - organization

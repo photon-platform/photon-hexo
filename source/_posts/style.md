@@ -14,7 +14,7 @@ categories:
   - principles
 tags:
   - featured
-  - showcase
+  # - showcase
 
 ---
 - personality

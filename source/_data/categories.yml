@@ -1,4 +1,15 @@
-overview: >-
-  a collection of articles designed to give you the big picture
-tools: >-
-  a collection of articles on the assortment of integrated tools that make Photon possible
+overview:
+  description: >-
+    a collection of articles designed to give you the big picture
+  figure: images/photon-logo.png
+  featured: true
+principles:
+  description: >-
+    key architectural considerations for Photon
+  figure: images/photon-logo.png
+  featured: true
+tools:
+  description: >-
+    a collection of articles on the assortment of integrated tools that make Photon possible
+  figure: images/photon-logo.png
+  featured: false

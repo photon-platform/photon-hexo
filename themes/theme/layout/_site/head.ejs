@@ -2,11 +2,9 @@
   <meta charset="utf-8">
   <title><%= page_title() %> | <%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<%# TODO: favicon -%>
 <% if (theme.rss) { -%>
   <link rel="alternate" href="<%- url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
 <% } -%>
-<%# TODO: favicon -%>
 <% if (config.favicon) { -%>
   <link rel="icon" href="<%- url_for('images/' + config.favicon) %>">
 <% } -%>

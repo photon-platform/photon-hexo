@@ -3,7 +3,7 @@
 <% var articles = site.tags.findOne( {name: tag } ); -%>
 <% if (articles) { -%>
   <% articles.posts.forEach( article => { -%>
-    <%-  partial('_component/article', { article: article, context: 'excerpt' } ) %>
+    <%-  partial('_articles/article', { article: article, context: 'excerpt' } ) %>
   <% } ) -%>
 <% } -%>
 </section>

@@ -27,6 +27,8 @@ body {
       > article {
         @include article-card;
 
+        cursor: pointer;
+        
         > figure {
           height: 18em;
 

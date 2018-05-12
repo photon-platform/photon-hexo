@@ -6,23 +6,15 @@ figure:
   image: photon-logo.png
   caption: Photon Content Development System
 gallery:
-  - image: wb_beautiful.jpg
-    caption: >-
-      so beautiful.
-  - image: wb_trillium.jpg
-    caption: >-
-      trillium
-  - image: wb_red-blossom.jpg
-    caption: >-
-      red blossom
-  - image: wb_rhodedendron-pink-blossom.jpg
-    caption: >-
-      pink blossom
+  # - image: wb_beautiful.jpg
+  #   caption: >-
+  #     so beautiful.
+
 date: 2018-04-15 15:41:25
 categories:
   - overview
 tags:
-  # - showcase
+  - showcase
 ---
-Photon is designed to help you organize your content, make it useful, and style it without compromise
+Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world
 <!-- more -->

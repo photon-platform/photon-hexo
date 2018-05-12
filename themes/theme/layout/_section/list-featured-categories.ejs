@@ -1,0 +1,31 @@
+<!-- list article excerpts by tag name -->
+<section class="featured categories">
+<% var categories = site.data.categories //.filter( category => category.featured == true ); -%>
+<% if (categories) { -%>
+  <% for (category in categories) { -%>
+    <article id="featured_category_<%= category %>"
+      class="category excerpt"
+      itemscope itemtype="http://schema.org/Article"
+      data-url="<%- url_for( category ) %>">
+      <figure>
+        <% if ( categories[category].figure ) {  -%>
+        <img src="<%-  url_for( categories[category].figure )  %>" >
+        <% } -%>
+      </figure>
+      <header>
+        <h1 itemprop="headline">
+        <a href="<%- url_for( category ) %>"><%= category %></a>
+        </h1>
+      </header>
+      <main itemprop="articleBody">
+        <div>
+        <%- categories[category].description %>
+        </div>
+        <a class="more" href="<%- url_for(category) %>"><%= theme.excerpt_link %></a>
+      </main>
+
+
+    </article>
+  <% }  -%>
+<% } -%>
+</section>

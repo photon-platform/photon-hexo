@@ -11,7 +11,7 @@ language: en
 timezone:
 
 formspree:
-  email: info@i-am-phi.net
+  email: phi@photon-platform.net
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -22,12 +22,6 @@ root: /
 permalink: :category/:title/
 permalink_defaults:
 
-menu:
-  Home: /
-  # Questions: /categories/questions
-  # Letters: /categories/letters
-  Archives: /archives
-  About: /about
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -108,10 +102,6 @@ index_generator:
   per_page: 10
   order_by: -date
 
-sitemap:
-  path: sitemap.xml
-  # tag: false
-  # category: false
 
 # Category & Tag
 default_category: uncategorized
@@ -142,20 +132,26 @@ marked:
   modifyAnchors: ''
   autolink: true
 
+# hexo-filer-responsive-images
+# https://github.com/hexojs/hexo-filter-responsive-images
 responsive_images:
   pattern: '**/*.+(png|jpg|jpeg)'
   sizes:
-    small:
-      width: 800
-    medium:
-      width: 1200
-    large:
-      width: 2000
+    th:
+      width: 600
+    wb:
+      width: 1920
       options:
         withoutEnlargement: true
 
+# hexo-generator-seo-friendly-sitemap
+sitemap:
+  path: sitemap.xml
+  # tag: false
+  # category: false
 
-# Hexo Beautify
+
+# hexo-beautify
 beautify:
   types:
     - html

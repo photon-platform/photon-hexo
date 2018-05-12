@@ -1,0 +1,35 @@
+<%#
+  @params
+  article: the hexo post
+-%>
+<%# var context = 'excerpt' -%>
+<article id="excerpt-<%= article.slug %>"
+  class="<%= article.layout %> excerpt"
+  itemscope itemtype="http://schema.org/Article"
+  data-url="<%- url_for(article.path) %>">
+  <%- partial('_block/figure', {article: article, format: 'excerpt'}) -%>
+  <header>
+    <%- partial('_block/title', {link: true}) -%>
+    <% if ( theme.excerpt_date ) { -%>
+    <%- partial('_block/date', {date_format: null}) %>
+    <% } -%>
+  </header>
+  <main itemprop="articleBody">
+    <div>
+    <%- article.excerpt %>
+    </div>
+    <% if ( theme.excerpt_link ) { -%>
+      <a class="more" href="<%- url_for(article.path) %>"><%= theme.excerpt_link %></a>
+    <% } -%>
+  </main>
+
+  <% if ( theme.excerpt_footer ) { -%>
+    <footer>
+      <%- partial('_block/tag') %>
+      <%- partial('_block/category') %>
+      <% if ( theme.shares ){ -%>
+      <%- partial('_block/share') %>
+      <% } -%>
+    </footer>
+  <% } -%>
+</article>

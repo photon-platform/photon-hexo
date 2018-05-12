@@ -6,7 +6,9 @@
       <h1><%= __('archive_a') %>:</h1>
       <h2><%= page.year %> • <%= page.month %></h2>
     </header>
-    <%- partial('_section/list-articles', { context: 'excerpt' }) %>
+    <%- partial('_section/list-articles', { articles: page.posts, format: 'excerpt' } ) %>
+    <%- partial('_section/list-paginator' ) -%>
+
   </main>
   <%- partial('_section/asides',    null, {cache: true}) %>
   <%- partial('_section/footer',    null, {cache: true}) %>

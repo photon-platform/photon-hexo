@@ -4,7 +4,7 @@ A curated suite of open source tools for content development and publishing.
 
 ## Overview and Goals
 
-The primary goal of the Photon Project is to provide a core set of functionality for creating, organizing, and publishing
+The primary goal of the Photon Platform is to provide a core set of functionality for creating, organizing, and publishing
 
 - one set of content for all targets - digital, epub, web, email, print
 - separation of structure, logic and style for maximum composability
@@ -47,12 +47,17 @@ hexo.io
 - hexo-generator-search
 - hexo-generator-seo-friendly-sitemap
 - hexo-renderer-sass
+- hexo-wordcount
+  - TODO: integrate Wordcount #1
 
 other libraries
 
 - fancybox
 - katex
 - greensock
+- mailchimp
+- formspree
+- google analytics
 
 ## atom
 
@@ -60,9 +65,15 @@ atom.io
 
 - key package enhancements
   - eslint
-  -
+  - mdwriter
 
 ## hosting
 
 - github pages
 - netlify
+
+## General TODOs
+
+- TODO: Organize Article tempaltes by type, form, context #1
+- TODO: Snipcart Integration #2 #third_party
+-

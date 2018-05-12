@@ -1,0 +1,40 @@
+<%#
+  @params
+  format: should be passed in - determine limited elements for excerpt & list
+  article: the hexo post
+-%>
+<% var format = format || '' -%>
+<article id="<%= format %>-<%= article.slug %>"
+  class="<%= article.layout %>"
+  itemscope itemtype="http://schema.org/Article"
+
+  data-url="<%- url_for(article.path) %>">
+  <%- partial('_block/figure', {article: article, format: format}) -%>
+  <header>
+    <%- partial('_block/title', {link: false}) %>
+    <% if ( article.layout != 'page' && article.layout != 'about' ) { -%>
+    <%- partial('_block/date', {date_format: null}) %>
+    <% } %>
+  </header>
+  <main itemprop="articleBody">
+    <div>
+    <%- article.excerpt %>
+    </div>
+    <%- article.more %>
+  </main>
+  <%- partial('_block/gallery') %>
+  <footer>
+    <%- partial('_block/tag') %>
+    <%- partial('_block/category') %>
+    <% if ( theme.shares ){ -%>
+    <%- partial('_block/share') %>
+    <% } -%>
+  </footer>
+  <% if ( article.comments && config.disqus_shortname ) { -%>
+  <section id="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+  <% } -%>
+</article>
