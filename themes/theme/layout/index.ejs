@@ -2,12 +2,8 @@
 
   <%- partial('_section/header',        null, {cache: true}) %>
 
-  <%#- partial('_section/nav',           null, {cache: true}) %>
-  <% var tag = site.tags.findOne( { name: 'showcase' } ); -%>
-  <%#- partial('_section/list-article-excerpts-by-tag',  {tag: 'showcase'} ) %>
-  <%- partial('_section/list-articles',  { articles: tag.posts, format: 'excerpt' } ) %>
-
   <%#- partial('_section/list-article-excerpts-by-tag',  {tag: 'featured'} ) %>
+  <%- partial('_section/showcase' ) %>
   <%- partial('_section/list-featured-categories' ) %>
 
   <main>

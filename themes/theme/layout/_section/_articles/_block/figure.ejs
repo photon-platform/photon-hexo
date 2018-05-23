@@ -2,7 +2,7 @@
 <figure>
   <img
   <% if ( article.layout == 'page' || article.layout == 'about' ){ /* no path for image */ -%>
-  src="<%-  article.figure.image  %>"
+    src="<%-  article.figure.image  %>"
   <% } else { -%>
     <% if ( format != 'excerpt' && format != 'listing' ) { -%>
       src="<%- url_for( article.path + 'wb_' + article.figure.image ) %>"
