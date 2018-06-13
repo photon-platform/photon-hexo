@@ -1,7 +1,13 @@
 <head>
   <meta charset="utf-8">
-  <title><%= page_title() %> | <%= config.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <%
+  var title = page_title()
+  %>
+  <title><%= title %></title>
+  <%# TODO: get description from page when available  %>
+  <meta name="description" content="<%= config.description %>">
+  <meta name="author" content="<%= config.author %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <% if (theme.rss) { -%>
   <link rel="alternate" href="<%- url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
 <% } -%>
@@ -23,7 +29,13 @@
   <meta name="google-site-verification" content="<%-  config.google_analytics %>" />
 <% } -%>
 <%# TODO: open graph -%>
-<%#- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) -%>
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= config.description %>">
+<!--
+<meta property="og:image" content="<%= url_for() %>">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+-->
 
 <%- css('highlight/atom-one-dark') -%>
 <%- js('highlight/highlight.pack') -%>

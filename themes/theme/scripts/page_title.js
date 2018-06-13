@@ -2,9 +2,15 @@
 // http://1pixelout.net/2015/09/18/writing-hexo-template-helpers/
 // move this function out of the head.ejs
 hexo.extend.helper.register("page_title", function () {
-  var title = this.page.title;
 
-  if (this.is_archive()) {
+
+  var title = this.page.title + " | " + hexo.config.title
+
+  if (this.is_home()) {
+
+    title = hexo.config.title + " | " + hexo.config.subtitle
+
+  } else if (this.is_archive()) {
     title = "Archives";
 
     if (this.is_month()) {
