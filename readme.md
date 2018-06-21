@@ -64,8 +64,13 @@ other libraries
 atom.io
 
 - key package enhancements
+  - emmet
+  - markdown-preview-enhanced
+  - language-markdown
+  - markdown-writer
+  - tool-bar
+  - tool-bar-markdown-writer
   - eslint
-  - mdwriter
 
 ## hosting
 

@@ -2,10 +2,16 @@
   <%- partial('_section/header',        null, {cache: true}) %>
   <%#- partial('_section/nav',           null, {cache: true}) %>
   <main>
+
     <header>
+      <figure>
+        <% if (typeof site.data.categories[page.category] != 'undefined') {  -%>
+        <img src="<%-  url_for( site.data.categories[page.category].figure )  %>" >
+        <% } -%>
+      </figure>
       <h1><%= __('category') %>:</h1>
       <h2><%= page.category %></h2>
-      <% if ( site.data.categories[page.category] ) {  -%>
+      <% if (typeof site.data.categories[page.category] != 'undefined') {  -%>
       <p><%= site.data.categories[page.category].description %></p>
       <% } %>
     </header>
