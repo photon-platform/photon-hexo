@@ -9,7 +9,8 @@ comment: Commentaires
 archive_a: Archives
 archive_b: "Archives: %s"
 page: Page %d
-recent_posts: Articles récents
+recent_articles: Articles récents
+related_articles: Articles related
 newer: Récent
 older: Ancien
 share: Partager

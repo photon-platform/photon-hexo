@@ -10,6 +10,7 @@ gallery:
 date: 2018-05-11 15:32:37
 categories:
 tags:
+  - articles
 ---
 Articles are the heart of Photon.
 <!-- more -->

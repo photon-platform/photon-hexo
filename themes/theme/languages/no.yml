@@ -9,7 +9,8 @@ comment: Kommentarer
 archive_a: Arkiv
 archive_b: "Arkiv: %s"
 page: Side %d
-recent_posts: Siste innlegg
+recent_articles: Siste innlegg
+related_articles: Related Articles
 newer: Newer
 older: Older
 share: Share

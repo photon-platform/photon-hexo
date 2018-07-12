@@ -10,7 +10,8 @@ comment: Commentaren
 archive_a: Archieven
 archive_b: "Archieven: %s"
 page: Pagina %d
-recent_posts: Recente berichten
+recent_articles: Recente berichten
+related_articles: Related berichten
 newer: Nieuwer
 older: Ouder
 share: Delen

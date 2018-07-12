@@ -42,4 +42,34 @@
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<%- url_for(page.path) %>"
+  },
+  "headline": "<%- page.title %>",
+  "image": [
+    "<%- page.figure.image %>"
+   ],
+  "datePublished": "<%- page.date %>",
+  "dateModified": "<%- page.updated %>",
+  "author": {
+    "@type": "Person",
+    "name": "phi"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "illumiphi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://illumiphi.com/images/logo.jpg"
+    }
+  },
+  "description": "<%- strip_html(page.excerpt) %>"
+}
+</script>
+
 </head>

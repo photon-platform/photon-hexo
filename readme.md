@@ -48,6 +48,7 @@ hexo.io
 - hexo-generator-seo-friendly-sitemap
 - hexo-renderer-sass
 - hexo-wordcount
+- hexo-related-popular-posts
   - TODO: integrate Wordcount #1
 
 other libraries

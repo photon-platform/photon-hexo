@@ -10,6 +10,7 @@ gallery:
 date: 2018-05-11 15:34:21
 categories:
 tags:
+  - articles
 ---
 Every article can have a dedicated figure - used as the "hero" image and a gallery.
 <!-- more -->

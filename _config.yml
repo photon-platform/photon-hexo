@@ -34,7 +34,7 @@ debug: true
 # Server
 ## Docs: https://github.com/hexojs/hexo-server
 server:
-  port: 4444
+  port: 3333
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

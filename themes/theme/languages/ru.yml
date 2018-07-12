@@ -9,7 +9,8 @@ comment: Комментарии
 archive_a: Архив
 archive_b: "Архив: %s"
 page: Страница %d
-recent_posts: Недавние записи
+recent_articles: Недавние записи
+related_articles: Related Articles
 newer: Следующий
 older: Предыдущий
 share: Поделиться

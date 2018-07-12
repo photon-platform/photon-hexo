@@ -16,5 +16,7 @@ categories:
 tags:
   - showcase
 ---
+
 Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world
+
 <!-- more -->
