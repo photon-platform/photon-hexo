@@ -30,6 +30,7 @@
     "hexo-wordcount": "^3.0.2"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "hexo-breadcrumb": "^1.0.2"
   }
 }

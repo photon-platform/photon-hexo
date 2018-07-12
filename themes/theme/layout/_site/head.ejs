@@ -48,12 +48,16 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "<%- url_for(page.path) %>"
+    "@id": "<%- config.url %><%- url_for(page.path) %>"
   },
   "headline": "<%- page.title %>",
+  <% if ( page.figure && page.figure !== undefined) { %>
+    <% if ( page.figure.image !== undefined) { %>
   "image": [
-    "<%- page.figure.image %>"
+    "<%- config.url %><%- url_for(page.path) %><%- page.figure.image %>"
    ],
+    <% } %>
+   <% } %>
   "datePublished": "<%- page.date %>",
   "dateModified": "<%- page.updated %>",
   "author": {

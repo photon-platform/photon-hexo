@@ -6,6 +6,8 @@
 <% var format = format || '' -%>
 <article id="<%= format %>-<%= article.slug %>"
   class="<%= article.layout %>"
+  itemscope itemtype="http://schema.org/Article"
+
   data-url="<%- url_for(article.path) %>">
   <%- partial('_block/figure', {article: article, format: format}) -%>
   <header>
@@ -15,7 +17,7 @@
     <% } %>
     <%#- page.breadcrumb.html %>
   </header>
-  <main >
+  <main itemprop="articleBody">
     <div>
     <%- article.excerpt %>
     </div>
