@@ -1,10 +1,12 @@
+<%
+var page_title = get_page_title()
+var page_date = page.date ? page.date : date_xml(Date.now())
+// if ( !page_date ) { page_date = date_xml(Date.now()) }
+-%>
 <head>
   <meta charset="utf-8">
-  <%
-  var title = page_title()
-  %>
-  <title><%= title %></title>
-  <%# TODO: get description from page when available  %>
+  <title><%= page_title %></title>
+  <%# TODO: get description from page when available  -%>
   <meta name="description" content="<%= config.description %>">
   <meta name="author" content="<%= config.author %>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +31,7 @@
   <meta name="google-site-verification" content="<%-  config.google_analytics %>" />
 <% } -%>
 <%# TODO: open graph -%>
-<meta property="og:title" content="<%= title %>">
+<meta property="og:title" content="<%= page_title %>">
 <meta property="og:description" content="<%= config.description %>">
 <!--
 <meta property="og:image" content="<%= url_for() %>">
@@ -50,7 +52,7 @@
     "@type": "WebPage",
     "@id": "<%- config.url %><%- url_for(page.path) %>"
   },
-  "headline": "<%- page.title %>",
+  "headline": "<%- page_title %>",
   <% if ( page.figure && page.figure !== undefined) { %>
     <% if ( page.figure.image !== undefined) { %>
   "image": [
@@ -58,7 +60,7 @@
    ],
     <% } %>
    <% } %>
-  "datePublished": "<%- page.date %>",
+  "datePublished": "<%- page_date %>",
   "dateModified": "<%- page.updated %>",
   "author": {
     "@type": "Person",

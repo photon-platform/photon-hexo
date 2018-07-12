@@ -1,7 +1,7 @@
 // thanks to
 // http://1pixelout.net/2015/09/18/writing-hexo-template-helpers/
 // move this function out of the head.ejs
-hexo.extend.helper.register("page_title", function () {
+hexo.extend.helper.register("get_page_title", function () {
 
 
   var title = this.page.title + " | " + hexo.config.title
