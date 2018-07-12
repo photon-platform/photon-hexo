@@ -3,9 +3,55 @@
   
     
     <entry>
+      <title>Article Images</title>
+      <link href="/uncategorized/article-images/"/>
+      <url>/uncategorized/article-images/</url>
+      <content type="html"><![CDATA[<p>Every article can have a dedicated figure - used as the “hero” image and a gallery.<br>  <a id="more"></a></p><p>Photon is configured to create a corresponding asset folder when a new article is created.</p><p>place your full size images in this folder - no need to resize, Photon will take care of it when generating the site.</p><p>use hyphenated names for SEO</p><p>when site is generated, the <a href="https://github.com/i-am-phi/hexo-filter-responsive-images" title="Hexo-Filter-Responsive-Images Plugin on Github" target="_blank" rel="noopener">Responsive Images</a> plugin for Hexo will take care of multiple resized versions of the image in the  generated output</p><p>setting for the default theme</p><p>  </p><p class="code-caption" data-lang="" data-line_number="backend" data-trim_indent="backend" data-label_position="outer" data-labels_left="code" data-labels_right=":" data-labels_copy=""><span class="code-caption-label"></span></p><p></p><pre><code>responsive_images:  pattern: &#39;**/*.+(png|jpg|jpeg)&#39;  sizes:    th:      width: 600    wb:      width: 1920      options:        withoutEnlargement: true</code></pre>]]></content>
+      
+      
+        <tags>
+            
+            <tag> articles </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Articles</title>
+      <link href="/uncategorized/articles/"/>
+      <url>/uncategorized/articles/</url>
+      <content type="html"><![CDATA[<p>Articles are the heart of Photon.<br>  <a id="more"></a><br>Articles are the primary data node of the set of content within Photon.</p><p>Correspond to the Hexo Post</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> articles </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Site Menu</title>
+      <link href="/structure/site-menu/"/>
+      <url>/structure/site-menu/</url>
+      <content type="html"><![CDATA[<p>The top-level site menu is set in <code>source/_data/menu.yml</code><br>  <a id="more"></a></p>]]></content>
+      
+      <categories>
+          
+          <category> structure </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Shine Your Light with Photon</title>
       <link href="/overview/shine/"/>
-      <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
+      <url>/overview/shine/</url>
+      <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world</p><a id="more"></a>]]></content>
       
       <categories>
           
@@ -14,19 +60,30 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> showcase </tag>
+            
+        </tags>
+      
     </entry>
     
     <entry>
       <title>structure</title>
-      <link href="/uncategorized/structure/"/>
+      <link href="/principles/structure/"/>
+      <url>/principles/structure/</url>
       <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
+      
+      <categories>
+          
+          <category> principles </category>
+          
+      </categories>
       
       
         <tags>
             
             <tag> featured </tag>
-            
-            <tag> showcase </tag>
             
         </tags>
       
@@ -34,15 +91,20 @@
     
     <entry>
       <title>logic</title>
-      <link href="/uncategorized/logic/"/>
+      <link href="/principles/logic/"/>
+      <url>/principles/logic/</url>
       <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
+      
+      <categories>
+          
+          <category> principles </category>
+          
+      </categories>
       
       
         <tags>
             
             <tag> featured </tag>
-            
-            <tag> showcase </tag>
             
         </tags>
       
@@ -50,15 +112,20 @@
     
     <entry>
       <title>style</title>
-      <link href="/uncategorized/style/"/>
+      <link href="/principles/style/"/>
+      <url>/principles/style/</url>
       <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
+      
+      <categories>
+          
+          <category> principles </category>
+          
+      </categories>
       
       
         <tags>
             
             <tag> featured </tag>
-            
-            <tag> showcase </tag>
             
         </tags>
       
@@ -67,6 +134,7 @@
     <entry>
       <title>Welcome</title>
       <link href="/welcome/welcome/"/>
+      <url>/welcome/welcome/</url>
       <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
       
       <categories>

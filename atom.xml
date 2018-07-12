@@ -5,9 +5,9 @@
   <subtitle>A Content Development System for Creatives</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://i-am-phi.github.io/photon/"/>
-  <updated>2018-04-22T00:18:27.000Z</updated>
-  <id>http://i-am-phi.github.io/photon/</id>
+  <link href="http://photon-platform.net/"/>
+  <updated>2018-07-11T23:43:13.000Z</updated>
+  <id>http://photon-platform.net/</id>
   
   <author>
     <name>i-am-phi</name>
@@ -17,31 +17,93 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Shine Your Light with Photon</title>
-    <link href="http://i-am-phi.github.io/photon/overview/shine/"/>
-    <id>http://i-am-phi.github.io/photon/overview/shine/</id>
-    <published>2018-04-15T22:41:25.000Z</published>
-    <updated>2018-04-22T00:18:27.000Z</updated>
+    <title>Article Images</title>
+    <link href="http://photon-platform.net/uncategorized/article-images/"/>
+    <id>http://photon-platform.net/uncategorized/article-images/</id>
+    <published>2018-05-11T22:34:21.000Z</published>
+    <updated>2018-07-11T23:43:13.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>  <a id="more"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>Every article can have a dedicated figure - used as the “hero” image and a gallery.<br>  <a id="more"></a></p><p>Photon is configured to create a corresponding asset folder when a new article is created.</p><p>place your full size images in this folder - no need to resize, Photon will take care of it when generating the site.</p><p>use hyphenated names for SEO</p><p>when site is generated, the <a href="https://github.com/i-am-phi/hexo-filter-responsive-images" title="Hexo-Filter-Responsive-Images Plugin on Github" target="_blank" rel="noopener">Responsive Images</a> plugin for Hexo will take care of multiple resized versions of the image in the  generated output</p><p>setting for the default theme</p><p>  </p><p class="code-caption" data-lang="" data-line_number="backend" data-trim_indent="backend" data-label_position="outer" data-labels_left="code" data-labels_right=":" data-labels_copy=""><span class="code-caption-label"></span></p><p></p><pre><code>responsive_images:  pattern: &#39;**/*.+(png|jpg|jpeg)&#39;  sizes:    th:      width: 600    wb:      width: 1920      options:        withoutEnlargement: true</code></pre>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Photon is designed to help you organize your content, make it useful, and style it without compromise&lt;br&gt;
+      &lt;p&gt;Every article can have a dedicated figure - used as the “hero” image and a gallery.&lt;br&gt;
     
     </summary>
     
-      <category term="overview" scheme="http://i-am-phi.github.io/photon/overview/"/>
+    
+      <category term="articles" scheme="http://photon-platform.net/tags/articles/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Articles</title>
+    <link href="http://photon-platform.net/uncategorized/articles/"/>
+    <id>http://photon-platform.net/uncategorized/articles/</id>
+    <published>2018-05-11T22:32:37.000Z</published>
+    <updated>2018-07-11T23:43:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Articles are the heart of Photon.<br>  <a id="more"></a><br>Articles are the primary data node of the set of content within Photon.</p><p>Correspond to the Hexo Post</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Articles are the heart of Photon.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="articles" scheme="http://photon-platform.net/tags/articles/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Site Menu</title>
+    <link href="http://photon-platform.net/structure/site-menu/"/>
+    <id>http://photon-platform.net/structure/site-menu/</id>
+    <published>2018-05-11T21:28:03.000Z</published>
+    <updated>2018-05-11T22:22:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>The top-level site menu is set in <code>source/_data/menu.yml</code><br>  <a id="more"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The top-level site menu is set in &lt;code&gt;source/_data/menu.yml&lt;/code&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="structure" scheme="http://photon-platform.net/structure/"/>
     
     
   </entry>
   
   <entry>
+    <title>Shine Your Light with Photon</title>
+    <link href="http://photon-platform.net/overview/shine/"/>
+    <id>http://photon-platform.net/overview/shine/</id>
+    <published>2018-04-15T22:41:25.000Z</published>
+    <updated>2018-07-12T03:05:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="overview" scheme="http://photon-platform.net/overview/"/>
+    
+    
+      <category term="showcase" scheme="http://photon-platform.net/tags/showcase/"/>
+    
+  </entry>
+  
+  <entry>
     <title>structure</title>
-    <link href="http://i-am-phi.github.io/photon/uncategorized/structure/"/>
-    <id>http://i-am-phi.github.io/photon/uncategorized/structure/</id>
+    <link href="http://photon-platform.net/principles/structure/"/>
+    <id>http://photon-platform.net/principles/structure/</id>
     <published>2018-04-12T00:30:14.000Z</published>
-    <updated>2018-04-22T00:20:49.000Z</updated>
+    <updated>2018-05-11T17:32:18.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
     
@@ -54,19 +116,19 @@
     
     </summary>
     
+      <category term="principles" scheme="http://photon-platform.net/principles/"/>
     
-      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
-      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+      <category term="featured" scheme="http://photon-platform.net/tags/featured/"/>
     
   </entry>
   
   <entry>
     <title>logic</title>
-    <link href="http://i-am-phi.github.io/photon/uncategorized/logic/"/>
-    <id>http://i-am-phi.github.io/photon/uncategorized/logic/</id>
+    <link href="http://photon-platform.net/principles/logic/"/>
+    <id>http://photon-platform.net/principles/logic/</id>
     <published>2018-04-08T00:30:35.000Z</published>
-    <updated>2018-04-22T00:18:48.000Z</updated>
+    <updated>2018-05-11T17:32:09.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
     
@@ -79,19 +141,19 @@
     
     </summary>
     
+      <category term="principles" scheme="http://photon-platform.net/principles/"/>
     
-      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
-      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+      <category term="featured" scheme="http://photon-platform.net/tags/featured/"/>
     
   </entry>
   
   <entry>
     <title>style</title>
-    <link href="http://i-am-phi.github.io/photon/uncategorized/style/"/>
-    <id>http://i-am-phi.github.io/photon/uncategorized/style/</id>
+    <link href="http://photon-platform.net/principles/style/"/>
+    <id>http://photon-platform.net/principles/style/</id>
     <published>2018-04-07T00:30:43.000Z</published>
-    <updated>2018-04-22T00:17:42.000Z</updated>
+    <updated>2018-05-11T18:14:41.000Z</updated>
     
     <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
     
@@ -104,17 +166,17 @@
     
     </summary>
     
+      <category term="principles" scheme="http://photon-platform.net/principles/"/>
     
-      <category term="featured" scheme="http://i-am-phi.github.io/photon/tags/featured/"/>
     
-      <category term="showcase" scheme="http://i-am-phi.github.io/photon/tags/showcase/"/>
+      <category term="featured" scheme="http://photon-platform.net/tags/featured/"/>
     
   </entry>
   
   <entry>
     <title>Welcome</title>
-    <link href="http://i-am-phi.github.io/photon/welcome/welcome/"/>
-    <id>http://i-am-phi.github.io/photon/welcome/welcome/</id>
+    <link href="http://photon-platform.net/welcome/welcome/"/>
+    <id>http://photon-platform.net/welcome/welcome/</id>
     <published>2018-02-24T00:00:00.000Z</published>
     <updated>2018-04-22T00:21:05.000Z</updated>
     
@@ -126,7 +188,7 @@
     
     </summary>
     
-      <category term="welcome" scheme="http://i-am-phi.github.io/photon/welcome/"/>
+      <category term="welcome" scheme="http://photon-platform.net/welcome/"/>
     
     
   </entry>

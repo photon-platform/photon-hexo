@@ -3,14 +3,25 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Archives | Photon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Archives</title>
+
+    <meta name="description" content="an integrated suite of tools for shining light on your work">
+    <meta name="author" content="i-am-phi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" href="/atom.xml" title="Photon" type="application/atom+xml">
     <link rel="icon" href="/images/favicon.jpg">
     <link rel="stylesheet" href="/css/photon.css">
     <link rel="stylesheet" href="/css/print.css">
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
     <meta name="google-site-verification" content="set this in config.yml file" />
+    <meta property="og:title" content="Archives">
+    <meta property="og:description" content="an integrated suite of tools for shining light on your work">
+    <!--
+<meta property="og:image" content="/">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+-->
 
     <link rel="stylesheet" href="/highlight/atom-one-dark.css">
     <script src="/highlight/highlight.pack.js"></script>
@@ -18,6 +29,33 @@
       hljs.initHighlightingOnLoad();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://photon-platform.net/archives/index.html"
+        },
+        "headline": "",
+        "datePublished": "",
+        "dateModified": "",
+        "author": {
+          "@type": "Person",
+          "name": "phi"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "illumiphi",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://illumiphi.com/images/logo.jpg"
+          }
+        },
+        "description": ""
+      }
+    </script>
 
   </head>
 
@@ -34,6 +72,7 @@
         <a href="/">Home</a>
         <a href="/archives">Archives</a>
         <a href="/about">About</a>
+        <a href="/Overview">Overview</a>
       </nav>
 
     </header>
@@ -44,36 +83,79 @@
         <h2> • </h2>
       </header>
       <!-- list articles -->
+      <article id="excerpt-article-images" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/uncategorized/article-images/">
+        <figure>
+          <img src="/uncategorized/article-images/th_figure.jpg" alt="figure caption">
+          <figcaption>figure caption</figcaption>
+        </figure>
+        <header>
+          <h1 itemprop="headline">
+            <a href="/uncategorized/article-images/">Article Images</a>
+          </h1>
+        </header>
+        <main itemprop="articleBody">
+          <div>
+            <p>Every article can have a dedicated figure - used as the “hero” image and a gallery.<br>
+          </div>
+          <a class="more" href="/uncategorized/article-images/">Read More &gt;</a>
+        </main>
+
+      </article>
+      <article id="excerpt-articles" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/uncategorized/articles/">
+        <header>
+          <h1 itemprop="headline">
+            <a href="/uncategorized/articles/">Articles</a>
+          </h1>
+        </header>
+        <main itemprop="articleBody">
+          <div>
+            <p>Articles are the heart of Photon.<br>
+          </div>
+          <a class="more" href="/uncategorized/articles/">Read More &gt;</a>
+        </main>
+
+      </article>
+      <article id="excerpt-site-menu" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/structure/site-menu/">
+        <header>
+          <h1 itemprop="headline">
+            <a href="/structure/site-menu/">Site Menu</a>
+          </h1>
+        </header>
+        <main itemprop="articleBody">
+          <div>
+            <p>The top-level site menu is set in <code>source/_data/menu.yml</code><br>
+          </div>
+          <a class="more" href="/structure/site-menu/">Read More &gt;</a>
+        </main>
+
+      </article>
       <article id="excerpt-shine" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/overview/shine/">
         <figure>
-          <img src="/overview/shine/photon-logo.png" alt="Photon Content Development System">
+          <img src="/overview/shine/th_photon-logo.png" alt="Photon Content Development System">
           <figcaption>Photon Content Development System</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
             <a href="/overview/shine/">Shine Your Light with Photon</a>
           </h1>
-          <time datetime="2018-04-15T22:41:25.000Z" itemprop="datePublished">2018-04-15</time>
-
         </header>
         <main itemprop="articleBody">
           <div>
-            <p>Photon is designed to help you organize your content, make it useful, and style it without compromise<br>
+            <p>Photon is designed to help you organize your content, make it useful, style it without compromise, and get it out in the world</p>
           </div>
           <a class="more" href="/overview/shine/">Read More &gt;</a>
         </main>
+
       </article>
-      <article id="excerpt-structure" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/uncategorized/structure/">
+      <article id="excerpt-structure" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/principles/structure/">
         <figure>
-          <img src="/uncategorized/structure/wb_red-blossom.jpg" alt="red blossom">
+          <img src="/principles/structure/th_wb_red-blossom.jpg" alt="red blossom">
           <figcaption>red blossom</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
-            <a href="/uncategorized/structure/">structure</a>
+            <a href="/principles/structure/">structure</a>
           </h1>
-          <time datetime="2018-04-12T00:30:14.000Z" itemprop="datePublished">2018-04-11</time>
-
         </header>
         <main itemprop="articleBody">
           <div>
@@ -82,20 +164,19 @@
               <li>hierarchy</li>
               <li>taxonomy
           </div>
-          <a class="more" href="/uncategorized/structure/">Read More &gt;</a>
+          <a class="more" href="/principles/structure/">Read More &gt;</a>
         </main>
+
       </article>
-      <article id="excerpt-logic" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/uncategorized/logic/">
+      <article id="excerpt-logic" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/principles/logic/">
         <figure>
-          <img src="/uncategorized/logic/wb_trillium.jpg" alt="trillium">
+          <img src="/principles/logic/th_wb_trillium.jpg" alt="trillium">
           <figcaption>trillium</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
-            <a href="/uncategorized/logic/">logic</a>
+            <a href="/principles/logic/">logic</a>
           </h1>
-          <time datetime="2018-04-08T00:30:35.000Z" itemprop="datePublished">2018-04-07</time>
-
         </header>
         <main itemprop="articleBody">
           <div>
@@ -104,20 +185,19 @@
               <li>interactivity</li>
               <li>sequence
           </div>
-          <a class="more" href="/uncategorized/logic/">Read More &gt;</a>
+          <a class="more" href="/principles/logic/">Read More &gt;</a>
         </main>
+
       </article>
-      <article id="excerpt-style" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/uncategorized/style/">
+      <article id="excerpt-style" class="article excerpt" itemscope itemtype="http://schema.org/Article" data-url="/principles/style/">
         <figure>
-          <img src="/uncategorized/style/wb_hula-bells.jpg" alt="hula bells">
+          <img src="/principles/style/th_wb_hula-bells.jpg" alt="hula bells">
           <figcaption>hula bells</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
-            <a href="/uncategorized/style/">style</a>
+            <a href="/principles/style/">style</a>
           </h1>
-          <time datetime="2018-04-07T00:30:43.000Z" itemprop="datePublished">2018-04-06</time>
-
         </header>
         <main itemprop="articleBody">
           <div>
@@ -126,20 +206,19 @@
               <li>color</li>
               <li>balance
           </div>
-          <a class="more" href="/uncategorized/style/">Read More &gt;</a>
+          <a class="more" href="/principles/style/">Read More &gt;</a>
         </main>
+
       </article>
       <article id="excerpt-welcome" class="post excerpt" itemscope itemtype="http://schema.org/Article" data-url="/welcome/welcome/">
         <figure>
-          <img src="/welcome/welcome/wb_beautiful.jpg" alt="so beautiful">
+          <img src="/welcome/welcome/th_wb_beautiful.jpg" alt="so beautiful">
           <figcaption>so beautiful</figcaption>
         </figure>
         <header>
           <h1 itemprop="headline">
             <a href="/welcome/welcome/">Welcome</a>
           </h1>
-          <time datetime="2018-02-24T00:00:00.000Z" itemprop="datePublished">2018-02-23</time>
-
         </header>
         <main itemprop="articleBody">
           <div>
@@ -147,7 +226,9 @@
           </div>
           <a class="more" href="/welcome/welcome/">Read More &gt;</a>
         </main>
+
       </article>
+
     </main>
     <section id="asides" class="asides">
       <aside>
@@ -160,22 +241,22 @@
         </div>
       </aside>
       <aside>
-        <h3>Recent Posts</h3>
+        <h3>Recent Articles</h3>
         <ul>
+          <li>
+            <a href="/uncategorized/article-images/">Article Images</a>
+          </li>
+          <li>
+            <a href="/uncategorized/articles/">Articles</a>
+          </li>
+          <li>
+            <a href="/structure/site-menu/">Site Menu</a>
+          </li>
           <li>
             <a href="/overview/shine/">Shine Your Light with Photon</a>
           </li>
           <li>
-            <a href="/uncategorized/structure/">structure</a>
-          </li>
-          <li>
-            <a href="/uncategorized/logic/">logic</a>
-          </li>
-          <li>
-            <a href="/uncategorized/style/">style</a>
-          </li>
-          <li>
-            <a href="/welcome/welcome/">Welcome</a>
+            <a href="/principles/structure/">structure</a>
           </li>
         </ul>
       </aside>
@@ -183,14 +264,26 @@
         <h3>Categories</h3>
         <ul class="category-list">
           <li class="category-list-item"><a class="category-list-link" href="/overview/">overview</a><span class="category-list-count">1</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/principles/">principles</a><span class="category-list-count">3</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/structure/">structure</a><span class="category-list-count">1</span></li>
           <li class="category-list-item"><a class="category-list-link" href="/welcome/">welcome</a><span class="category-list-count">1</span></li>
         </ul>
       </aside>
     </section>
     <footer id="footer">
       <aside>
-        &copy; 2018<br> i-am-phi
-        <br> Powered by <a href="http://i-am-phi.net/" target="_blank">Photon</a>
+        <p>
+          &copy; 2018
+        </p>
+        <p>
+          i-am-phi
+        </p>
+        <p>
+          <a href="http://illumiphi.com" target="_blank">designed by<br>Illumiphi</a>
+        </p>
+        <p>
+          <a href="http://photon-platform.net/" target="_blank">powered by<br>Photon Platform</a>
+        </p>
       </aside>
     </footer>
     <script src="/js/jquery.min.js">

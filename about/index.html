@@ -3,14 +3,25 @@
 
   <head>
     <meta charset="utf-8">
+
     <title>About Photon | Photon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="description" content="an integrated suite of tools for shining light on your work">
+    <meta name="author" content="i-am-phi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="alternate" href="/atom.xml" title="Photon" type="application/atom+xml">
     <link rel="icon" href="/images/favicon.jpg">
     <link rel="stylesheet" href="/css/photon.css">
     <link rel="stylesheet" href="/css/print.css">
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
     <meta name="google-site-verification" content="set this in config.yml file" />
+    <meta property="og:title" content="About Photon | Photon">
+    <meta property="og:description" content="an integrated suite of tools for shining light on your work">
+    <!--
+<meta property="og:image" content="/">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+-->
 
     <link rel="stylesheet" href="/highlight/atom-one-dark.css">
     <script src="/highlight/highlight.pack.js"></script>
@@ -18,6 +29,36 @@
       hljs.initHighlightingOnLoad();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://photon-platform.net/about/index.html"
+        },
+        "headline": "About Photon",
+        "image": [
+          "http://photon-platform.net/about/index.htmlphoton-logo.png"
+        ],
+        "datePublished": "Sat Feb 24 2018 00:00:00 GMT-0800",
+        "dateModified": "Fri Apr 20 2018 08:11:51 GMT-0700",
+        "author": {
+          "@type": "Person",
+          "name": "phi"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "illumiphi",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://illumiphi.com/images/logo.jpg"
+          }
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    </script>
 
   </head>
 
@@ -34,12 +75,13 @@
         <a href="/">Home</a>
         <a href="/archives">Archives</a>
         <a href="/about">About</a>
+        <a href="/Overview">Overview</a>
       </nav>
 
     </header>
 
     <main>
-      <article id="-" class="about " itemscope itemtype="http://schema.org/Article" data-url="/about/index.html">
+      <article id="-" class="about" itemscope itemtype="http://schema.org/Article" data-url="/about/index.html">
         <figure>
           <img src="photon-logo.png" alt="Shine your light with Photon">
           <figcaption>Shine your light with Photon</figcaption>
@@ -62,6 +104,11 @@
 
         <footer>
 
+          <aside>
+            <h3>Related Articles</h3>
+
+          </aside>
+
         </footer>
 
       </article>
@@ -69,7 +116,7 @@
         <h3>Contact Us</h3>
         <section>
 
-          <form method="POST" action="http://formspree.io/info@i-am-phi.net">
+          <form method="POST" action="http://formspree.io/phi@photon-platform.net">
             <input name="email" placeholder="Your email" type="email">
             <textarea name="message" placeholder="Your message"></textarea>
             <button type="submit">Send</button>
@@ -89,22 +136,22 @@
         </div>
       </aside>
       <aside>
-        <h3>Recent Posts</h3>
+        <h3>Recent Articles</h3>
         <ul>
+          <li>
+            <a href="/uncategorized/article-images/">Article Images</a>
+          </li>
+          <li>
+            <a href="/uncategorized/articles/">Articles</a>
+          </li>
+          <li>
+            <a href="/structure/site-menu/">Site Menu</a>
+          </li>
           <li>
             <a href="/overview/shine/">Shine Your Light with Photon</a>
           </li>
           <li>
-            <a href="/uncategorized/structure/">structure</a>
-          </li>
-          <li>
-            <a href="/uncategorized/logic/">logic</a>
-          </li>
-          <li>
-            <a href="/uncategorized/style/">style</a>
-          </li>
-          <li>
-            <a href="/welcome/welcome/">Welcome</a>
+            <a href="/principles/structure/">structure</a>
           </li>
         </ul>
       </aside>
@@ -112,14 +159,26 @@
         <h3>Categories</h3>
         <ul class="category-list">
           <li class="category-list-item"><a class="category-list-link" href="/overview/">overview</a><span class="category-list-count">1</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/principles/">principles</a><span class="category-list-count">3</span></li>
+          <li class="category-list-item"><a class="category-list-link" href="/structure/">structure</a><span class="category-list-count">1</span></li>
           <li class="category-list-item"><a class="category-list-link" href="/welcome/">welcome</a><span class="category-list-count">1</span></li>
         </ul>
       </aside>
     </section>
     <footer id="footer">
       <aside>
-        &copy; 2018<br> i-am-phi
-        <br> Powered by <a href="http://i-am-phi.net/" target="_blank">Photon</a>
+        <p>
+          &copy; 2018
+        </p>
+        <p>
+          i-am-phi
+        </p>
+        <p>
+          <a href="http://illumiphi.com" target="_blank">designed by<br>Illumiphi</a>
+        </p>
+        <p>
+          <a href="http://photon-platform.net/" target="_blank">powered by<br>Photon Platform</a>
+        </p>
       </aside>
     </footer>
     <script src="/js/jquery.min.js">
