@@ -4,7 +4,7 @@
   article: the hexo post
 -%>
 <% var format = format || '' -%>
-<article id="<%= format %>-<%= article.slug %>"
+<article
   class="<%= article.layout %>"
   data-url="<%- url_for(article.path) %>">
   <%- partial('_block/figure', {article: article, format: format}) -%>
@@ -33,7 +33,6 @@
     <% } -%>
   </footer>
   <%- partial('_block/nav') %>
-
   <% if ( article.comments && config.disqus_shortname ) { -%>
   <section id="comments">
     <div id="disqus_thread">

@@ -1,4 +1,15 @@
-Home: /
-Archives: /archives
-About: /about
-Overview: /Overview
+- text: Home
+  href: /
+  title: Home Page
+- text: Archives
+  href: /archives
+  title: Archive of all articles
+- text: Principles
+  href: /principles
+  title: collection of articles on the ddesign principles behind photon
+- text: Features
+  href: /features
+  title: a listing of features of photon - current and proposed
+- text: About
+  href: /about
+  title: all about photon

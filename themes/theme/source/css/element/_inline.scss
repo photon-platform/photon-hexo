@@ -1,12 +1,10 @@
-b,
-strong {
+b, strong {
 	font-weight: inherit;
 	// Add the correct font weight in Chrome, Edge, and Safari.
 	font-weight: bolder;
 }
 
-em,
-i {
+em, i {
   font-style: italic;
 }
 
@@ -14,21 +12,11 @@ cite {
 	font-style: italic;
 }
 
-// dfn {
-//   font-style: italic;
-// }
-
-// Add the correct background and color in IE 9-.
 mark {
   background-color: $color-key;
   color: $color-foreground;
 }
 
-// Add the correct font size in all browsers.
-small {
-  line-height: 1;
-  font-size: 0.8em;
-}
 
 // 1. Remove the bottom border in Chrome 57- and Firefox 39-.
 // 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -36,6 +24,12 @@ abbr[title] {
   border-bottom: none; //* 1 */
   text-decoration: underline; //* 2 */
   text-decoration: underline dotted; //* 2 */
+}
+
+
+small {
+  line-height: 1;
+  font-size: 0.8em;
 }
 
 // Prevent `sub` and `sup` elements from affecting the line height in all browsers.
@@ -46,6 +40,7 @@ sup {
  position: relative;
  vertical-align: baseline;
 }
+
 
 sub {
 	bottom: -.25em;

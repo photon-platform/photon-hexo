@@ -12,8 +12,11 @@ categories:
 tags:
   - articles
 ---
+
 Articles are the heart of Photon.
+
 <!-- more -->
+
 Articles are the primary data node of the set of content within Photon.
 
 Correspond to the Hexo Post

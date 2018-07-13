@@ -17,7 +17,9 @@ tags:
   # - showcase
 
 ---
+
 - personality
 - color
 - balance
+
 <!-- more -->

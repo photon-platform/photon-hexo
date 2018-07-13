@@ -2,7 +2,10 @@
 title: {{ title }}
 date: {{ date }}
 layout: {{ layout }}
+work:
+  
 categories:
+  - works
 tags:
 figure:
   image: figure.jpg

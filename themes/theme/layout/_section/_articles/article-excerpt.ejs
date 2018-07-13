@@ -3,7 +3,7 @@
   article: the hexo post
 -%>
 <%# var context = 'excerpt' -%>
-<article id="excerpt-<%= article.slug %>"
+<article
   class="<%= article.layout %> excerpt"
   data-url="<%- url_for(article.path) %>">
   <%- partial('_block/figure', {article: article, format: 'excerpt'}) -%>
@@ -21,7 +21,6 @@
       <a class="more" href="<%- url_for(article.path) %>"><%= theme.excerpt_link %></a>
     <% } -%>
   </main>
-
   <% if ( theme.excerpt_footer ) { -%>
     <footer>
       <%- partial('_block/tag') %>

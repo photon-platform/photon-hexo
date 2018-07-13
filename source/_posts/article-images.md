@@ -9,10 +9,13 @@ gallery:
     caption: ''
 date: 2018-05-11 15:34:21
 categories:
+  - Design
 tags:
   - articles
 ---
+
 Every article can have a dedicated figure - used as the "hero" image and a gallery.
+
 <!-- more -->
 
 Photon is configured to create a corresponding asset folder when a new article is created.

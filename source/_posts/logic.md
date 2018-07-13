@@ -16,7 +16,9 @@ tags:
   - featured
 
 ---
+
 - function
 - interactivity
 - sequence
+
 <!-- more -->

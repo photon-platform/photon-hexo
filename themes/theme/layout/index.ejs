@@ -3,12 +3,13 @@
   <%- partial('_section/header',        null, {cache: true}) %>
 
   <%#- partial('_section/list-article-excerpts-by-tag',  {tag: 'featured'} ) %>
-  <%- partial('_section/showcase' ) %>
+  <%- partial('_section/list-showcase' ) %>
+
   <%- partial('_section/list-featured-categories' ) %>
 
   <main>
     <header>
-      <h1>Recent Posts...</h1>
+      <h1><%= __('recent_articles') %></h1>
     </header>
     <%- partial('_section/list-articles', { articles: page.posts, format: 'excerpt' } ) -%>
     <%- partial('_section/list-paginator' ) -%>
@@ -17,6 +18,7 @@
 
   <%- partial('_section/asides',        null, {cache: true}) %>
   <%- partial('_section/footer',        null, {cache: true}) %>
+
   <%- partial('_site/after-footer',     null, {cache: true}) %>
 
 </body>

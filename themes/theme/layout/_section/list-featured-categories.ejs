@@ -1,9 +1,8 @@
-<!-- list article excerpts by tag name -->
 <section class="featured categories">
 <% var categories = site.data.categories //.filter( category => category.featured == true ); -%>
 <% if (categories) { -%>
   <% for (category in categories) { -%>
-    <article id="featured_category_<%= category %>"
+    <article
       class="category excerpt"
       itemscope itemtype="http://schema.org/Article"
       data-url="<%- url_for( category ) %>">
@@ -23,8 +22,6 @@
         </div>
         <a class="more" href="<%- url_for(category) %>"><%= theme.excerpt_link %></a>
       </main>
-
-
     </article>
   <% }  -%>
 <% } -%>

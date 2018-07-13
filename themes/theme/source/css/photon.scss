@@ -30,41 +30,63 @@ $color-background: $color-neutral-lighter;
 
 // set defaults from simplest to most complex
 
-/* Element Defaults *****************************/
+/* element/_default *****************************/
 @import 'element/_default';
+/* element/html *****************************/
 @import 'element/html';
+/* element/headings *****************************/
 @import 'element/headings';
+/* element/blocks *****************************/
 @import 'element/blocks';
+/* element/lists *****************************/
 @import 'element/lists';
+/* element/blockquotes *****************************/
 @import 'element/blockquotes';
+/* element/code *****************************/
 @import 'element/code';
+/* element/a *****************************/
 @import 'element/a';
+/* element/inline *****************************/
 @import 'element/inline';
-
+/* element/figure *****************************/
 @import 'element/figure';
+/* element/tables *****************************/
 @import 'element/tables';
+/* element/forms *****************************/
 @import 'element/forms';
 
-/* Component Defaults *****************************/
 @import 'component/mixins';
+/* component/article *****************************/
 @import 'component/article';
+/* component/aside *****************************/
 @import 'component/aside';
+/* component/search *****************************/
 @import 'component/search';
 
-/* Section Defaultss *****************************/
+/* section/_default *****************************/
 @import 'section/_default';
+/* section/asides *****************************/
 @import 'section/asides';
+/* section/featured *****************************/
 @import 'section/featured';
+/* section/footer *****************************/
 @import 'section/footer';
+/* section/header *****************************/
 @import 'section/header';
+/* on/main *****************************/
 @import 'section/main';
+/* section/nav *****************************/
 @import 'section/nav';
+/* section/showcase *****************************/
 @import 'section/showcase';
 
-/* Body Defaults *****************************/
+/* body/_default *****************************/
 @import 'body/_default';
+/* body/index2 *****************************/
 @import 'body/index2';
+/* body/article *****************************/
 @import 'body/article';
+/* body/archive *****************************/
 @import 'body/archive';
 
 /* Print *****************************/

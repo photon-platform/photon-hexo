@@ -1,53 +1,70 @@
 <%
 var page_title = get_page_title()
+var page_description = page.excerpt ? page.excerpt : config.description
 var page_date = page.date ? page.date : date_xml(Date.now())
-// if ( !page_date ) { page_date = date_xml(Date.now()) }
+var page_updated = page.updated ? page.updated : page_date
+var page_image = ""
 -%>
+<% if ( page.figure && page.figure !== undefined) { -%>
+  <% if ( page.figure.image !== undefined) {
+    page_image = url_for(page.permalink) + page.figure.image
+  } %>
+<% } %>
 <head>
   <meta charset="utf-8">
   <title><%= page_title %></title>
-  <%# TODO: get description from page when available  -%>
-  <meta name="description" content="<%= config.description %>">
+  <meta name="description" content="<%= page_description %>">
   <meta name="author" content="<%= config.author %>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%# TODO: pull the css from the theme config file -%>
+
+  <!-- css -->
+  <%- css('css/photon') %>
+  <%- css('css/print') %>
+
 <% if (theme.rss) { -%>
+  <!-- rss -->
   <link rel="alternate" href="<%- url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
 <% } -%>
+
 <% if (config.favicon) { -%>
+  <!-- favicon -->
   <link rel="icon" href="<%- url_for('images/' + config.favicon) %>">
 <% } -%>
 <%# TODO: code highlight font integration -%>
 <% if (config.highlight.enable) { -%>
+  <!-- highlight -->
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
 <% } -%>
-<%# TODO: pull the css from the theme config file -%>
-<%- css('css/photon') -%>
-<%- css('css/print') -%>
 
+<!-- opengraph -->
+<meta property="og:title" content="<%= page_title %>">
+<meta property="og:description" content="<%= page_description %>">
+<meta property="og:image" content="<%= page_image %>">
+<meta property="og:url" content="<%= page.permalink %>">
+<meta name="twitter:card" content="<%= page_image %>">
+
+<!-- Libraries -->
+<!-- fancybox -->
 <%- css('fancybox/jquery.fancybox.min') -%>
+<!-- google -->
 <%# TODO: google analytics -%>
 <%#- partial('google-analytics') -%>
 <% if (config.google_analytics) { -%>
   <meta name="google-site-verification" content="<%-  config.google_analytics %>" />
 <% } -%>
-<%# TODO: open graph -%>
-<meta property="og:title" content="<%= page_title %>">
-<meta property="og:description" content="<%= config.description %>">
-<!--
-<meta property="og:image" content="<%= url_for() %>">
-<meta property="og:url" content="">
-<meta name="twitter:card" content="summary_large_image">
--->
-
+<!-- highlight -->
 <%- css('highlight/atom-one-dark') -%>
 <%- js('highlight/highlight.pack') -%>
 <script>hljs.initHighlightingOnLoad();</script>
+<!-- greensock -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 
+<!-- JSON-ld -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "NewsArticle",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "<%- config.url %><%- url_for(page.path) %>"
@@ -56,12 +73,12 @@ var page_date = page.date ? page.date : date_xml(Date.now())
   <% if ( page.figure && page.figure !== undefined) { %>
     <% if ( page.figure.image !== undefined) { %>
   "image": [
-    "<%- config.url %><%- url_for(page.path) %><%- page.figure.image %>"
+    "<%- page_image %>"
    ],
     <% } %>
    <% } %>
   "datePublished": "<%- page_date %>",
-  "dateModified": "<%- page.updated %>",
+  "dateModified": "<%- page_updated %>",
   "author": {
     "@type": "Person",
     "name": "phi"
@@ -74,7 +91,7 @@ var page_date = page.date ? page.date : date_xml(Date.now())
       "url": "http://illumiphi.com/images/logo.jpg"
     }
   },
-  "description": "<%- strip_html(page.excerpt) %>"
+  "description": "<%- strip_html(page_description) %>"
 }
 </script>
 

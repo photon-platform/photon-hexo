@@ -1,58 +1,71 @@
-<% function showAtributes(obj) { %>
-  <% for(var key in obj) { %>
-      <%= key %>: <%= typeof obj[key] -%>
-  <% } %>
-<% } %>
-
+<% if (config.debug) { %>
+<!--
+<% function showAttributes(obj) { %>
+  <% for(var key in obj) { -%>
+      <%= key %>: <%= typeof obj[key] %>
+  <% } -%>
+<% } -%>
+<pre>
 page
 ============================
       title: <%= page.title %>
+      layout: <%= page.layout %>
+
        date: <%= page.date %>
+  published: <%= page.published %>
     updated: <%= page.updated %>
-   comments: <%= page.comments %>
-     layout: <%= page.layout %>
+
      source: <%= page.source %>
 full_source: <%= page.full_source %>
+
        path: <%= page.path %>
   permalink: <%= page.permalink %>
-     photos: <%= page.photos %>
-       link: <%= page.link %>
-       prev: <%#= page.prev.path %>
-       next: <%#= page.next.path %>
-        raw: <%#= page.raw %>
-       tags: <%= page.tags %>
- categories: <%= page.categories %>
-       misc: <%= page.misc %>
+  canonical: <%= page.canonical_path %>
+       slug: <%= page.slug %>
+  asset_dir: <%= page.asset_dir %>
+
+       prev: <%= page.prev.path %>
+       next: <%= page.next.path %>
+
+     figure: <%= page.figure.image %>
+    gallery: <%= page.gallery.length %>
+
+       tags: <%= page.tags.count() %>
+ categories: <%= page.categories.count() %>
+   comments: <%= page.comments %>
+       lang: <%= page.lang %>
+
+       raw: <%= page.raw.length %>
+   content: <%= page.content.length %>
 
 // ======== page objects properties
-<% showAtributes(page); %>
+<% showAttributes(page); %>
 
 
 <% if (page.categories) { %>
-  // -------- page.categories properties
-  <% for(var key in page.categories) { %>
-      <%= key %>: <%= typeof page.categories[key] -%>
-  <% } %>
+// -------- page.categories properties
+  <% showAttributes(page.categories); %>
 
     // -------- page.categories list
     cat count: <%= page.categories.count() %>
     cat size: <%= page.categories.size() %>
     <%  page.categories.each( function(category) { %>
       - <%= category.name %>
-        post count: <%= category.posts.count() %>
+             count: <%= category.posts.count() %>
                _id: <%= category._id %>
             parent: <%= category.parent %>
-      <% for(var key in category) { %>
-        <%= key %>: <%= typeof category[key] -%>
-      <% } %>
+              path: <%= category.path %>
+         permalink: <%= category.permalink %>
+             posts: <%= category.posts.count() %>
+              slug: <%= category.slug %>
+
+      <% showAttributes(category); %>
     <% } ) %>
 <% } %>
 
 <% if (page.tags) { %>
-  // -------- page.tags properties
-  <% for(var key in page.tags) { %>
-      <%= key %>: <%= typeof page.tags[key] -%>
-  <% } %>
+// -------- page.tags properties
+<% showAttributes(page.tags); %>
 
     // -------- page.tags list
     tag count: <%= page.tags.count() %>
@@ -64,4 +77,7 @@ full_source: <%= page.full_source %>
         <%= key %>: <%= typeof tag[key] -%>
       <% } %>
     <% } ) %>
+<% } %>
+</pre>
+-->
 <% } %>

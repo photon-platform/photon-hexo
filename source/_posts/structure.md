@@ -16,7 +16,9 @@ tags:
   - featured
 
 ---
+
 - organization
 - hierarchy
 - taxonomy
+
 <!-- more -->

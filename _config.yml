@@ -6,7 +6,7 @@
 title: Photon
 subtitle: A Content Development System for Creatives
 description: an integrated suite of tools for shining light on your work
-author: i-am-phi
+author: phi
 language: en
 timezone:
 
@@ -32,7 +32,8 @@ deploy:
   type: git
   repo: https://github.com/i-am-phi/photon.git
 
-debug: true
+# turning this on will dump page variable at the end of the source
+debug: false
 
 # Server
 ## Docs: https://github.com/hexojs/hexo-server

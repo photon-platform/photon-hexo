@@ -1,3 +1,4 @@
+<!-- javascript init -->
 <% if (config.disqus_shortname){ %>
 <script>
   var disqus_shortname = '<%= config.disqus_shortname %>';
@@ -14,7 +15,6 @@
 </script>
 <% } %>
 
-
 <%- js('js/jquery.min') %>
 <%- js('fancybox/jquery.fancybox.min') %>
 
@@ -27,3 +27,4 @@
 
 <%- js('js/script') %>
 <%- js('js/showcase') %>
+<%- partial('_site/debug') %>

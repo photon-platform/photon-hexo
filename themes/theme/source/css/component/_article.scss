@@ -3,12 +3,11 @@
 // top children have named grid areas
 article {
 
-  @include article-layout;
-
-  // padding: 1em;
-
   width: 100%;
   // height: 100vh;
+
+  @include article-layout;
+
   background-color: $color-key-lighter;
 
   &:last-child {
@@ -22,6 +21,7 @@ article {
     width: 100%;
     height: 100%;
     max-height: 75vh;
+
     padding: 0;
     overflow: hidden;
     text-align: center;
@@ -29,6 +29,7 @@ article {
     > img {
       width: 100%;
       height: 100%;
+
       object-fit: cover;
     }
 
@@ -39,20 +40,23 @@ article {
 
   > header {
     grid-area: header;
-
-    margin: 0 auto;
     width: 100%;
 
+    margin: 0 auto;
+
     text-align: left;
+
     > h1 {
+      width: 100%;
+
       padding: .5em;
       padding-left: 1em;
-      width: 100%;
       // background-color: $color-foreground;
       // color: $color-background;
       // color: $color-key-darker;
       a {
         color: $color-key;
+
         &:link {
           color: $color-key;
         }
@@ -67,21 +71,15 @@ article {
 
       }
 
-
     }
     > time {
-      display: none;
-
-      // font-size: .8em;
-      // line-height: 1.2;
-      // letter-spacing: .25em;
-      // padding-left: .25em;
-
+      // display: block;
     }
   }
 
   > main {
     grid-area: main;
+    padding: 1em;
 
     column-width: 12em;
 
@@ -89,25 +87,27 @@ article {
     orphans: 2;
 
     text-align: left;
-    padding: 1em;
 
     // excerpt
     > div {
-      background-color: $color-background;
-      padding: 1em;
+
       width: 100%;
+      padding: 1em;
+      margin-bottom: .5em;
+
+      background-color: $color-background;
 
       column-span: all;
       // font-weight: 700;
       font-size: 1.2em;
-      margin-bottom: .5em;
 
     }
 
     p {
+      margin-bottom: 1em;
+      
       widows: 2;
       orphans: 2;
-      margin-bottom: 1em;
       &:last-child {
         margin-bottom: 0;
       }

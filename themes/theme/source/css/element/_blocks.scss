@@ -1,11 +1,7 @@
 // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
-dd,
-dt,
-p,
-div,
-details,
-menu,
-summary {
+p, div,
+dd, dt,
+details, summary {
 
   display: block;
 

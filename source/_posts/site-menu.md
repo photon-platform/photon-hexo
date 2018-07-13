@@ -14,5 +14,7 @@ categories:
   - structure
 tags:
 ---
+
 The top-level site menu is set in `source/_data/menu.yml`
+
 <!-- more -->

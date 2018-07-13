@@ -6,9 +6,10 @@ person:
   first_name: First
   last_name: Last
   role: role
+  url: url
 categories:
+  - people
 tags:
-  - person
 figure:
   image: figure.jpg
   asset: true

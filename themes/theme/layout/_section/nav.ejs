@@ -1,6 +1,6 @@
-  <nav id="main-nav">
-    <%# <a id="main-nav-toggle" class="nav-icon"></a> %>
-    <% for (var key in site.data.menu){ -%>
-    <a href="<%- url_for(site.data.menu[key]) %>"><%= key %></a>
-    <% } -%>
+  <nav>
+    <%# <a id="main-nav-toggle" class="nav-icon"></a> -%>
+    <% site.data.menu.forEach( menu => { -%>
+    <a href="<%- menu.href %>" title="<%- menu.title %>" ><%- menu.text %></a>
+    <% }) -%>
   </nav>

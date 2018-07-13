@@ -3,8 +3,6 @@ requires articles to be passed as an argument
 @params
 
 %>
-
-<!-- list articles -->
 <% articles.each( article => { -%>
   <%_ if ( format != ''){ -%>
     <%- partial( '_articles/article-' + format, { article: article } ) -%>

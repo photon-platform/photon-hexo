@@ -7,7 +7,10 @@ event:
   time: 12:00pm
   time_end: 4:00pm
   location: here
+people:
+  - person-slug
 categories:
+  - events
 tags:
 figure:
   image: figure.jpg
@@ -18,5 +21,7 @@ gallery:
     asset: true
     caption: ''
 ---
+
+event
 
 <!-- more -->

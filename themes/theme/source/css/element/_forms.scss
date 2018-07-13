@@ -92,14 +92,12 @@ textarea {
 
   outline: 0 none;
   border: 1px solid $color-foreground;
-  border-radius: 0;
 
-  font-family: $font-root;
   text-align: left;
   color: $color-foreground;
   background-color: $color-background;
   appearance: none;
-  box-sizing: border-box;
+
   width: 100%;
   max-width: 100%;
 
@@ -121,8 +119,6 @@ input[type=submit] {
 select {
   height: 2.75em;
   margin: 0 0 2em;
-  font-family: $font-root;
-  border-radius: 0;
   padding: 0.575em 2em 0.575em 1.125em;
   display: block;
   width: 100%;
