@@ -11,7 +11,8 @@ excerpt_footer: false
 # include lightbox
 fancybox: true
 
-  
+shares: true
+
 # Sidebar
 asides:
 - search

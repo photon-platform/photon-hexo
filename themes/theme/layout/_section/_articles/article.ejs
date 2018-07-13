@@ -21,18 +21,20 @@
     </div>
     <%- article.more %>
   </main>
+
   <%- partial('_block/gallery') %>
 
   <footer>
     <%- partial('_block/tag') %>
     <%- partial('_block/category') %>
     <%- partial('_block/list-related-posts') %>
-
     <% if ( theme.shares ){ -%>
     <%- partial('_block/share') %>
     <% } -%>
   </footer>
+
   <%- partial('_block/nav') %>
+  
   <% if ( article.comments && config.disqus_shortname ) { -%>
   <section id="comments">
     <div id="disqus_thread">

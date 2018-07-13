@@ -1,10 +1,10 @@
-<% if ( article.tags && article.tags.length ){ -%>
-  <aside class="article-tag">
+<aside class="article-tag">
   <h4><%= __('tags') %></h4>
-  <%- list_tags( article.tags, {
-    show_count: false,
-    style: 'list',
-    separator: ' • '
-  }) -%>
+  <% if ( article.tags && article.tags.length ){ -%>
+    <%- list_tags( article.tags, {
+      show_count: false,
+      style: 'list',
+      separator: ' • '
+    }) -%>
+  <% } -%>
 </aside>
-<% } -%>

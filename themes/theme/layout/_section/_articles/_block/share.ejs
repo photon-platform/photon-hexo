@@ -1,9 +1,9 @@
   <aside class="article-share">
-  <h4><%= __('shares') %></h4>
-    <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" ><%= __('share') %></a>
+    <h4><%= __('shares') %></h4>
     <ul>
-      <li>facebook</li>
-      <li>twitter</li>
-      <li>github</li>
+      <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURI(article.permalink) %>" >facebook</a></li>
+      <li><a target="_blank" href="https://twitter.com/home?status=<%= encodeURI(article.permalink) %>" >twitter</a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<%= encodeURI(article.permalink) %>&title=<%= encodeURI(article.title) %>" >linkedin</a></li>
+      <li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=<%= encodeURI(article.permalink) %>&media=<%= encodeURI(article.permalink) %>&description=<%= encodeURI(article.permalink) %>" >pinterest</a></li>
     </ul>
   </aside>

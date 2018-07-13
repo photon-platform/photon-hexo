@@ -13,7 +13,7 @@ var page_image = ""
 <head>
   <meta charset="utf-8">
   <title><%= page_title %></title>
-  <meta name="description" content="<%= page_description %>">
+  <meta name="description" content="<%= strip_html(page_description) %>">
   <meta name="author" content="<%= config.author %>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%# TODO: pull the css from the theme config file -%>
@@ -39,8 +39,12 @@ var page_image = ""
 
 <!-- opengraph -->
 <meta property="og:title" content="<%= page_title %>">
-<meta property="og:description" content="<%= page_description %>">
-<meta property="og:image" content="<%= page_image %>">
+<meta property="og:description" content="<%= strip_html(page_description) %>">
+<% if ( page_image ) { -%>
+  <meta property="og:image" content="<%= page_image %>">
+ <% } else { -%>
+   <meta property="og:image" content="<%- config.url %><%- url_for(config.logo) %>">
+<% } -%>
 <meta property="og:url" content="<%= page.permalink %>">
 <meta name="twitter:card" content="<%= page_image %>">
 
