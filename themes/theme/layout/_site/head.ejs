@@ -70,13 +70,15 @@ var page_image = ""
     "@id": "<%- config.url %><%- url_for(page.path) %>"
   },
   "headline": "<%- page_title %>",
-  <% if ( page.figure && page.figure !== undefined) { %>
-    <% if ( page.figure.image !== undefined) { %>
+  <% if ( page_image ) { %>
   "image": [
     "<%- page_image %>"
    ],
-    <% } %>
-   <% } %>
+   <% } else { %>
+     "image": [
+       "<%- config.url %><%- url_for(config.logo) %>"
+      ],
+  <% } %>
   "datePublished": "<%- page_date %>",
   "dateModified": "<%- page_updated %>",
   "author": {
@@ -85,10 +87,10 @@ var page_image = ""
   },
    "publisher": {
     "@type": "Organization",
-    "name": "illumiphi",
+    "name": "<%- config.title %>",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://illumiphi.com/images/logo.jpg"
+      "url": "<%- config.url %><%- url_for(config.logo) %>"
     }
   },
   "description": "<%- strip_html(page_description) %>"
