@@ -7,56 +7,8 @@
     </url>
 
     <url>
-        <loc>http://photon-platform.net/overview/shine/</loc>
-        <lastmod>2018-07-12T03:05:25.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/uncategorized/articles/</loc>
-        <lastmod>2018-07-11T23:43:57.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/uncategorized/article-images/</loc>
-        <lastmod>2018-07-11T23:43:13.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/structure/site-menu/</loc>
-        <lastmod>2018-05-11T22:22:36.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/principles/style/</loc>
-        <lastmod>2018-05-11T18:14:41.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/principles/structure/</loc>
-        <lastmod>2018-05-11T17:32:18.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://photon-platform.net/principles/logic/</loc>
-        <lastmod>2018-05-11T17:32:09.000Z</lastmod>
+        <loc>http://photon-platform.net/design/article-images/</loc>
+        <lastmod>2018-07-13T12:40:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -64,7 +16,63 @@
 
     <url>
         <loc>http://photon-platform.net/welcome/welcome/</loc>
-        <lastmod>2018-04-22T00:21:05.000Z</lastmod>
+        <lastmod>2018-07-13T05:15:44.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/principles/style/</loc>
+        <lastmod>2018-07-13T05:15:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/structure/site-menu/</loc>
+        <lastmod>2018-07-13T05:15:25.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/uncategorized/articles/</loc>
+        <lastmod>2018-07-13T05:15:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/uncategorized/aria-support/</loc>
+        <lastmod>2018-07-13T05:15:02.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/principles/logic/</loc>
+        <lastmod>2018-07-13T05:14:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/principles/structure/</loc>
+        <lastmod>2018-07-13T05:12:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://photon-platform.net/overview/shine/</loc>
+        <lastmod>2018-07-12T03:05:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

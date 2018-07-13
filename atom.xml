@@ -6,30 +6,51 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://photon-platform.net/"/>
-  <updated>2018-07-11T23:43:13.000Z</updated>
+  <updated>2018-07-13T05:15:02.000Z</updated>
   <id>http://photon-platform.net/</id>
   
   <author>
-    <name>i-am-phi</name>
+    <name>phi</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Article Images</title>
-    <link href="http://photon-platform.net/uncategorized/article-images/"/>
-    <id>http://photon-platform.net/uncategorized/article-images/</id>
-    <published>2018-05-11T22:34:21.000Z</published>
-    <updated>2018-07-11T23:43:13.000Z</updated>
+    <title>Aria support</title>
+    <link href="http://photon-platform.net/uncategorized/aria-support/"/>
+    <id>http://photon-platform.net/uncategorized/aria-support/</id>
+    <published>2018-07-12T23:54:52.000Z</published>
+    <updated>2018-07-13T05:15:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Every article can have a dedicated figure - used as the “hero” image and a gallery.<br>  <a id="more"></a></p><p>Photon is configured to create a corresponding asset folder when a new article is created.</p><p>place your full size images in this folder - no need to resize, Photon will take care of it when generating the site.</p><p>use hyphenated names for SEO</p><p>when site is generated, the <a href="https://github.com/i-am-phi/hexo-filter-responsive-images" title="Hexo-Filter-Responsive-Images Plugin on Github" target="_blank" rel="noopener">Responsive Images</a> plugin for Hexo will take care of multiple resized versions of the image in the  generated output</p><p>setting for the default theme</p><p>  </p><p class="code-caption" data-lang="" data-line_number="backend" data-trim_indent="backend" data-label_position="outer" data-labels_left="code" data-labels_right=":" data-labels_copy=""><span class="code-caption-label"></span></p><p></p><pre><code>responsive_images:  pattern: &#39;**/*.+(png|jpg|jpeg)&#39;  sizes:    th:      width: 600    wb:      width: 1920      options:        withoutEnlargement: true</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>W3C states that Semantic HTML5 does not require role attributes<br><a href="https://www.w3.org/TR/html-aria/" target="_blank" rel="noopener">https://www.w3.org/TR/html-aria/</a></p><p>other <code>aria-*</code> attributes could be useful</p><a id="more"></a><p>currently setting the role for<br>section.asides role.complementary</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Every article can have a dedicated figure - used as the “hero” image and a gallery.&lt;br&gt;
+      &lt;p&gt;W3C states that Semantic HTML5 does not require role attributes&lt;br&gt;&lt;a href=&quot;https://www.w3.org/TR/html-aria/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.w3.org/TR/html-aria/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;other &lt;code&gt;aria-*&lt;/code&gt; attributes could be useful&lt;/p&gt;
     
     </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Article Images</title>
+    <link href="http://photon-platform.net/design/article-images/"/>
+    <id>http://photon-platform.net/design/article-images/</id>
+    <published>2018-05-11T22:34:21.000Z</published>
+    <updated>2018-07-13T12:40:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Every article can have a dedicated figure - used as the “hero” image and a gallery.</p><a id="more"></a><p>Photon is configured to create a corresponding asset folder when a new article is created.</p><p>place your full size images in this folder - no need to resize, Photon will take care of it when generating the site.</p><p>use hyphenated names for SEO</p><p>when site is generated, the <a href="https://github.com/i-am-phi/hexo-filter-responsive-images" title="Hexo-Filter-Responsive-Images Plugin on Github" target="_blank" rel="noopener">Responsive Images</a> plugin for Hexo will take care of multiple resized versions of the image in the  generated output</p><p>setting for the default theme</p><p>  </p><p class="code-caption" data-lang="" data-line_number="backend" data-trim_indent="backend" data-label_position="outer" data-labels_left="code" data-labels_right=":" data-labels_copy=""><span class="code-caption-label"></span></p><p></p><pre><code>responsive_images:  pattern: &#39;**/*.+(png|jpg|jpeg)&#39;  sizes:    th:      width: 600    wb:      width: 1920      options:        withoutEnlargement: true</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Every article can have a dedicated figure - used as the “hero” image and a gallery.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Design" scheme="http://photon-platform.net/design/"/>
     
     
       <category term="articles" scheme="http://photon-platform.net/tags/articles/"/>
@@ -41,13 +62,13 @@
     <link href="http://photon-platform.net/uncategorized/articles/"/>
     <id>http://photon-platform.net/uncategorized/articles/</id>
     <published>2018-05-11T22:32:37.000Z</published>
-    <updated>2018-07-11T23:43:57.000Z</updated>
+    <updated>2018-07-13T05:15:15.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Articles are the heart of Photon.<br>  <a id="more"></a><br>Articles are the primary data node of the set of content within Photon.</p><p>Correspond to the Hexo Post</p>]]></content>
+    <content type="html"><![CDATA[<p>Articles are the heart of Photon.</p><a id="more"></a><p>Articles are the primary data node of the set of content within Photon.</p><p>Correspond to the Hexo Post</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Articles are the heart of Photon.&lt;br&gt;
+      &lt;p&gt;Articles are the heart of Photon.&lt;/p&gt;
     
     </summary>
     
@@ -61,13 +82,13 @@
     <link href="http://photon-platform.net/structure/site-menu/"/>
     <id>http://photon-platform.net/structure/site-menu/</id>
     <published>2018-05-11T21:28:03.000Z</published>
-    <updated>2018-05-11T22:22:36.000Z</updated>
+    <updated>2018-07-13T05:15:25.000Z</updated>
     
-    <content type="html"><![CDATA[<p>The top-level site menu is set in <code>source/_data/menu.yml</code><br>  <a id="more"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>The top-level site menu is set in <code>source/_data/menu.yml</code></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;The top-level site menu is set in &lt;code&gt;source/_data/menu.yml&lt;/code&gt;&lt;br&gt;
+      &lt;p&gt;The top-level site menu is set in &lt;code&gt;source/_data/menu.yml&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
@@ -103,16 +124,17 @@
     <link href="http://photon-platform.net/principles/structure/"/>
     <id>http://photon-platform.net/principles/structure/</id>
     <published>2018-04-12T00:30:14.000Z</published>
-    <updated>2018-05-11T17:32:18.000Z</updated>
+    <updated>2018-07-13T05:12:41.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy    <a id="more"></a>  </li></ul>]]></content>
+    <content type="html"><![CDATA[<ul>  <li>organization</li>  <li>hierarchy</li>  <li>taxonomy</li></ul><a id="more"></a>]]></content>
     
     <summary type="html">
     
       &lt;ul&gt;
   &lt;li&gt;organization&lt;/li&gt;
   &lt;li&gt;hierarchy&lt;/li&gt;
-  &lt;li&gt;taxonomy
+  &lt;li&gt;taxonomy&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -128,16 +150,17 @@
     <link href="http://photon-platform.net/principles/logic/"/>
     <id>http://photon-platform.net/principles/logic/</id>
     <published>2018-04-08T00:30:35.000Z</published>
-    <updated>2018-05-11T17:32:09.000Z</updated>
+    <updated>2018-07-13T05:14:45.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence    <a id="more"></a>  </li></ul>]]></content>
+    <content type="html"><![CDATA[<ul>  <li>function</li>  <li>interactivity</li>  <li>sequence</li></ul><a id="more"></a>]]></content>
     
     <summary type="html">
     
       &lt;ul&gt;
   &lt;li&gt;function&lt;/li&gt;
   &lt;li&gt;interactivity&lt;/li&gt;
-  &lt;li&gt;sequence
+  &lt;li&gt;sequence&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -153,16 +176,17 @@
     <link href="http://photon-platform.net/principles/style/"/>
     <id>http://photon-platform.net/principles/style/</id>
     <published>2018-04-07T00:30:43.000Z</published>
-    <updated>2018-05-11T18:14:41.000Z</updated>
+    <updated>2018-07-13T05:15:37.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance    <a id="more"></a>  </li></ul>]]></content>
+    <content type="html"><![CDATA[<ul>  <li>personality</li>  <li>color</li>  <li>balance</li></ul><a id="more"></a>]]></content>
     
     <summary type="html">
     
       &lt;ul&gt;
   &lt;li&gt;personality&lt;/li&gt;
   &lt;li&gt;color&lt;/li&gt;
-  &lt;li&gt;balance
+  &lt;li&gt;balance&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -178,13 +202,13 @@
     <link href="http://photon-platform.net/welcome/welcome/"/>
     <id>http://photon-platform.net/welcome/welcome/</id>
     <published>2018-02-24T00:00:00.000Z</published>
-    <updated>2018-04-22T00:21:05.000Z</updated>
+    <updated>2018-07-13T05:15:44.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome<br>  <a id="more"></a></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome</p><a id="more"></a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome&lt;br&gt;
+      &lt;p&gt;Welcome&lt;/p&gt;
     
     </summary>
     

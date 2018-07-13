@@ -3,7 +3,7 @@
 
     <sitemap>
         <loc>http://photon-platform.net/post-sitemap.xml</loc>
-        <lastmod>2018-07-12T03:05:25.000Z</lastmod>
+        <lastmod>2018-07-13T12:40:09.000Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -13,12 +13,12 @@
 
     <sitemap>
         <loc>http://photon-platform.net/category-sitemap.xml</loc>
-        <lastmod>2018-04-22T00:21:05.000Z</lastmod>
+        <lastmod>2018-07-12T03:05:25.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://photon-platform.net/tag-sitemap.xml</loc>
-        <lastmod>2018-05-11T18:14:41.000Z</lastmod>
+        <lastmod>2018-07-12T03:05:25.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>
