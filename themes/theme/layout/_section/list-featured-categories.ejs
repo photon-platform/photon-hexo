@@ -4,7 +4,6 @@
   <% for (category in categories) { -%>
     <article
       class="category excerpt"
-      itemscope itemtype="http://schema.org/Article"
       data-url="<%- url_for( category ) %>">
       <figure>
         <% if ( categories[category].figure ) {  -%>
@@ -12,11 +11,11 @@
         <% } -%>
       </figure>
       <header>
-        <h1 itemprop="headline">
+        <h1>
         <a href="<%- url_for( category ) %>"><%= category %></a>
         </h1>
       </header>
-      <main itemprop="articleBody">
+      <main>
         <div>
         <%- categories[category].description %>
         </div>
