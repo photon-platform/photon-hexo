@@ -6,7 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 0; }
+  border: 0;
+  border-radius: 0; }
 
 html {
   background-color: white;
@@ -50,13 +51,9 @@ h3 {
 h4 {
   font-size: 1.1em; }
 
-dd,
-dt,
-p,
-div,
-details,
-menu,
-summary {
+p, div,
+dd, dt,
+details, summary {
   display: block;
   font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1; }
 
@@ -74,8 +71,6 @@ li {
 
 blockquote {
   display: block;
-  border: 0 none;
-  position: relative;
   margin: 1em auto;
   padding: 1em;
   font-size: 1.2em; }
@@ -142,13 +137,11 @@ a {
   a:active {
     color: #267345; }
 
-b,
-strong {
+b, strong {
   font-weight: inherit;
   font-weight: bolder; }
 
-em,
-i {
+em, i {
   font-style: italic; }
 
 cite {
@@ -158,14 +151,14 @@ mark {
   background-color: #408cbf;
   color: #435737; }
 
-small {
-  line-height: 1;
-  font-size: 0.8em; }
-
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted; }
+
+small {
+  line-height: 1;
+  font-size: 0.8em; }
 
 sub,
 sup {
@@ -272,13 +265,10 @@ textarea {
   padding: .4em;
   outline: 0 none;
   border: 1px solid #435737;
-  border-radius: 0;
-  font-family: "Lato", sans-serif;
   text-align: left;
   color: #435737;
   background-color: white;
   appearance: none;
-  box-sizing: border-box;
   width: 100%;
   max-width: 100%; }
   input[type=email]:focus,
@@ -304,8 +294,6 @@ input[type=submit] {
 select {
   height: 2.75em;
   margin: 0 0 2em;
-  font-family: "Lato", sans-serif;
-  border-radius: 0;
   padding: 0.575em 2em 0.575em 1.125em;
   display: block;
   width: 100%;
@@ -332,11 +320,11 @@ button {
 
 /* Component Defaults *****************************/
 article {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
   grid-template-areas: ' figure ' ' header ' ' main ' ' footer ';
-  width: 100%;
   background-color: #d9e8f2; }
   article:last-child {
     margin-bottom: 0; }
@@ -356,13 +344,13 @@ article {
       text-align: center; }
   article > header {
     grid-area: header;
-    margin: 0 auto;
     width: 100%;
+    margin: 0 auto;
     text-align: left; }
     article > header > h1 {
+      width: 100%;
       padding: .5em;
-      padding-left: 1em;
-      width: 100%; }
+      padding-left: 1em; }
       article > header > h1 a {
         color: #408cbf; }
         article > header > h1 a:link {
@@ -371,26 +359,24 @@ article {
           color: #408cbf; }
         article > header > h1 a:hover {
           color: #265473; }
-    article > header > time {
-      display: none; }
   article > main {
     grid-area: main;
+    padding: 1em;
     column-width: 12em;
     widows: 2;
     orphans: 2;
-    text-align: left;
-    padding: 1em; }
+    text-align: left; }
     article > main > div {
-      background-color: white;
-      padding: 1em;
       width: 100%;
+      padding: 1em;
+      margin-bottom: .5em;
+      background-color: white;
       column-span: all;
-      font-size: 1.2em;
-      margin-bottom: .5em; }
+      font-size: 1.2em; }
     article > main p {
+      margin-bottom: 1em;
       widows: 2;
-      orphans: 2;
-      margin-bottom: 1em; }
+      orphans: 2; }
       article > main p:last-child {
         margin-bottom: 0; }
   article > footer {
