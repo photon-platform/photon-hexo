@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Photon
-subtitle: A Content Development System for Creatives
-description: an integrated suite of tools for shining light on your work
+title: photon
+subtitle: Content Development Platform
+description: an integrated suite of tools for shining light on your passion
 author: phi
 logo: images/photon-logo.png
 language: en

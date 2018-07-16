@@ -1,6 +1,6 @@
 <% if (site.posts.length){ -%>
   <aside>
-    <h3><%= __('recent_articles') %></h3>
+    <h1><%= __('recent_articles') %></h1>
     <ul>
       <% site.posts.sort('date', -1).limit(5).each( post => { -%>
         <li>

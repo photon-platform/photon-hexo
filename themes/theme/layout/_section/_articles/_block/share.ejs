@@ -1,9 +1,19 @@
-  <aside class="article-share">
-    <h4><%= __('shares') %></h4>
-    <ul>
-      <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURI(article.permalink) %>" >facebook</a></li>
-      <li><a target="_blank" href="https://twitter.com/home?status=<%= encodeURI(article.permalink) %>" >twitter</a></li>
-      <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<%= encodeURI(article.permalink) %>&title=<%= encodeURI(article.title) %>" >linkedin</a></li>
-      <li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=<%= encodeURI(article.permalink) %>&media=<%= encodeURI(article.permalink) %>&description=<%= encodeURI(article.permalink) %>" >pinterest</a></li>
-    </ul>
-  </aside>
+<%
+  var share_url = encodeURI(article.permalink)
+  var share_description = strip_html(page.excerpt ? page.excerpt : config.description)
+
+  var share_image = config.url + url_for(config.logo)
+  if ( page.figure && page.figure !== undefined ) { -%>
+    <% if ( page.figure.image !== undefined ) {
+      share_image = url_for(page.permalink) + page.figure.image
+    } %>
+  <% } -%>
+<aside class="article-share">
+  <h1><%= __('Share') %></h1>
+  <ul>
+    <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<%= share_url %>" >facebook</a></li>
+    <li><a target="_blank" href="https://twitter.com/home?status=<%= share_url %>" >twitter</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<%= share_url %>&title=<%= encodeURI(article.title) %>" >linkedin</a></li>
+    <li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=<%= share_url %>&media=<%= share_image %>&description=<%= share_description %>" >pinterest</a></li>
+  </ul>
+</aside>

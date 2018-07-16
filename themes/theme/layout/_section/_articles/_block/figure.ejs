@@ -1,5 +1,5 @@
-<% if ( article.figure ){ -%>
 <figure>
+  <% if ( article.figure ) { -%>
   <img
   <% if ( article.layout == 'page' || article.layout == 'about' ){ /* no path for image */ -%>
     src="<%-  article.figure.image  %>"
@@ -12,5 +12,5 @@
   <% } -%>
   alt="<%- article.figure.caption %>">
   <figcaption><%- article.figure.caption %></figcaption>
+  <% } -%>
 </figure>
-<% } -%>

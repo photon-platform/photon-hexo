@@ -14,19 +14,8 @@
     width: 100%;
 
     font-size: 1.2em;
-
-    a {
-      // background: $color-key;
-      // border-radius: .5em;
-      color: $color-key-darker;
-      // margin: .5em;
-      // padding: .5em;
-      text-decoration: none;
-
-      &:hover {
-        color: $color-key;
-        text-decoration: none;
-      }
+    > main > div {
+      color: $color-foreground;
     }
   }
 }

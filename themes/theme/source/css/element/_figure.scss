@@ -1,7 +1,6 @@
 img {
 
   display: block;
-
   border-style: none;
 
 }
@@ -17,9 +16,9 @@ figure {
   img {
 
     max-width: 100%;
-    height: auto;
+    height: 100%;
 
-    object-fit: contain;
+    object-fit: cover;
 
   }
 

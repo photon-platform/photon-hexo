@@ -1,0 +1,27 @@
+
+// FONTS
+@import 'fonts/_Montserrat';
+// @import 'fonts/_Lato';
+
+$font-display: $font-Montserrat;
+$font-root: $font-Montserrat;
+
+$form-font: $font-root;
+
+// COLOR
+$color-key-hue: 204;
+$color-1-hue: 44;
+$color-2-hue: 144;
+
+$saturation: 50;
+
+
+@import 'color/_default';
+
+$color-foreground: #CCC;
+$color-background: #333;
+
+// BREAKPOINT
+@import 'media/var-18em';
+@import 'media/functions';
+@import 'media/mixins';

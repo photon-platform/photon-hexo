@@ -3,7 +3,7 @@ var page_title = get_page_title()
 var page_description = page.excerpt ? page.excerpt : config.description
 var page_date = page.date ? page.date : date_xml(Date.now())
 var page_updated = page.updated ? page.updated : page_date
-var page_image = ""
+var page_image = config.url + url_for(config.logo)
 -%>
 <% if ( page.figure && page.figure !== undefined) { -%>
   <% if ( page.figure.image !== undefined) {
@@ -19,6 +19,7 @@ var page_image = ""
   <%# TODO: pull the css from the theme config file -%>
 
   <!-- css -->
+  <%- css('css/elements') %>
   <%- css('css/photon') %>
   <%- css('css/print') %>
 
@@ -40,11 +41,7 @@ var page_image = ""
 <!-- opengraph -->
 <meta property="og:title" content="<%= page_title %>">
 <meta property="og:description" content="<%= strip_html(page_description) %>">
-<% if ( page_image ) { -%>
-  <meta property="og:image" content="<%= page_image %>">
- <% } else { -%>
-   <meta property="og:image" content="<%- config.url %><%- url_for(config.logo) %>">
-<% } -%>
+<meta property="og:image" content="<%= page_image %>">
 <meta property="og:url" content="<%= page.permalink %>">
 <meta name="twitter:card" content="<%= page_image %>">
 
@@ -74,15 +71,9 @@ var page_image = ""
     "@id": "<%- config.url %><%- url_for(page.path) %>"
   },
   "headline": "<%- page_title %>",
-  <% if ( page_image ) { %>
   "image": [
     "<%- page_image %>"
    ],
-   <% } else { %>
-     "image": [
-       "<%- config.url %><%- url_for(config.logo) %>"
-      ],
-  <% } %>
   "datePublished": "<%- page_date %>",
   "dateModified": "<%- page_updated %>",
   "author": {

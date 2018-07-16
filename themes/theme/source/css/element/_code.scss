@@ -8,11 +8,11 @@ samp {
   font-size: 1em;
   line-height: 1.5;
 
-  color: $color-neutral-light;
-  background-color: $color-neutral-dark;
+  color: $color-foreground;
+  background-color: $color-background;
 
   padding: .1em .25em;
-  position: static;
+  // position: static;
   border-radius: 0;
 
 }
@@ -21,10 +21,10 @@ code {
 
   height: auto;
 
-  > figure {
-    display: block;
-    position: static;
-  }
+  // > figure {
+  //   display: block;
+  //   position: static;
+  // }
 
   pre & {
     display: block;

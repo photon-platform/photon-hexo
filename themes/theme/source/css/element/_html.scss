@@ -14,12 +14,12 @@ html {
   line-height: 1.35;
   text-align: left;
 
-  //TODO: Set root font-size for each breakpoint
-  @include media-bp-rootsize(0);
-  @include media-bp-rootsize(1);
-  @include media-bp-rootsize(2);
-  @include media-bp-rootsize(3);
-  @include media-bp-rootsize(4);
+  // //TODO: Set root font-size for each breakpoint
+  // @include media-bp-rootsize(0);
+  // @include media-bp-rootsize(1);
+  // @include media-bp-rootsize(2);
+  // @include media-bp-rootsize(3);
+  // @include media-bp-rootsize(4);
 
 
 }

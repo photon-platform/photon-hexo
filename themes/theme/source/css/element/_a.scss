@@ -4,18 +4,19 @@ a {
   background-color: transparent;
   background: none;
   text-decoration: none;
-  color: $color-key-darker;
+  color: $color-key;
 
   &:link {
-    color: $color-key-darker;
+    color: $color-key;
   }
 
   &:visited {
-    color: $color-key-darker;
+    color: $color-key;
   }
 
   &:hover {
-    color: $color-key-darker;
+    color: $color-key-lighter;
+    text-shadow: 2px 2px #000000;
   }
 
   &:active {

@@ -1,59 +1,7 @@
 //Photon Theme Index
-
-// FONTS
-@import 'fonts/_Merriweather';
-@import 'fonts/_Lato';
-
-$font-display: $font-Merriweather;
-$font-root: $font-Lato;
-
-$form-font: $font-root;
-
-// COLOR
-$color-key-hue: 204;
-$color-1-hue: 44;
-$color-2-hue: 144;
-
-$saturation: 50;
-
-
-@import 'color/_default';
-
-$color-foreground: $color-neutral-darker;
-$color-background: $color-neutral-lighter;
-
-// BREAKPOINT
-@import 'media/var-18em';
-@import 'media/functions';
-@import 'media/mixins';
-
-
+@import "config";
 // set defaults from simplest to most complex
 
-/* element/_default *****************************/
-@import 'element/_default';
-/* element/html *****************************/
-@import 'element/html';
-/* element/headings *****************************/
-@import 'element/headings';
-/* element/blocks *****************************/
-@import 'element/blocks';
-/* element/lists *****************************/
-@import 'element/lists';
-/* element/blockquotes *****************************/
-@import 'element/blockquotes';
-/* element/code *****************************/
-@import 'element/code';
-/* element/a *****************************/
-@import 'element/a';
-/* element/inline *****************************/
-@import 'element/inline';
-/* element/figure *****************************/
-@import 'element/figure';
-/* element/tables *****************************/
-@import 'element/tables';
-/* element/forms *****************************/
-@import 'element/forms';
 
 @import 'component/mixins';
 /* component/article *****************************/

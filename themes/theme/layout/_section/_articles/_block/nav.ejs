@@ -1,22 +1,14 @@
-<% if ( article.prev || article.next ){ -%>
-<nav class="article-nav">
+<nav>
   <% if ( article.prev ){ -%>
   <a href="<%- url_for(article.prev.path) %>" class="nav-newer" >
-    <strong><%= __('newer') %></strong>
-    <div>
-      <% if ( article.prev.title ) { -%>
-        <%= article.prev.title %>
-      <% } else { -%>
-        (no title)
-      <% } -%>
-    </div>
+    <h1><%= __('newer') %></h1>
+    <p><%= article.prev.title %></p>
   </a>
   <% } -%>
   <% if ( article.next ) { -%>
     <a href="<%- url_for(article.next.path) %>" class="nav-older" >
-      <strong><%= __('older') %></strong>
-      <div><%= article.next.title %></div>
+      <h1><%= __('older') %></h1>
+      <p><%= article.next.title %></p>
     </a>
   <% } -%>
 </nav>
-<% } -%>
